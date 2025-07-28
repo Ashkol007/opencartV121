@@ -3,6 +3,7 @@ package pageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AccountRegistrationPage extends Basepage {
 	
@@ -26,6 +27,12 @@ public class AccountRegistrationPage extends Basepage {
 	@FindBy(xpath="//input[@value='Continue']") WebElement BtnContinue;
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']") WebElement SuccessTxt;
 	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement SuccessContinue;
+	
+	@FindBy(xpath="//div[@class='text-danger' and contains(text(),'First Name')]") WebElement RequiredFieldFirstName;
+    @FindBy(xpath="//div[@class='text-danger' and contains(text(),'Last Name')]") WebElement RequiredFieldLastName;
+    @FindBy(xpath="//div[contains(@class,'alert')]") WebElement WarningMsg;
+    
+    @FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]") WebElement EmailValidationTxt;
 	
 	
 	public void setFirstname(String firstname){
@@ -79,7 +86,30 @@ public class AccountRegistrationPage extends Basepage {
 		SuccessContinue.click();
 	}
 	
+	public Boolean checkValidations() {
+		
+		await.until(ExpectedConditions.visibilityOf(RequiredFieldFirstName));
+
+		await.until(ExpectedConditions.visibilityOf(RequiredFieldLastName));
+
+		await.until(ExpectedConditions.visibilityOf(WarningMsg));
+		
+		if(RequiredFieldFirstName.isDisplayed() && RequiredFieldLastName.isDisplayed() && WarningMsg.isDisplayed() ) {
+			
+			return true;
+		}
+		
+		return false;
+	}
 	
+	
+	public Boolean emailValidation() {
+		   
+		if(EmailValidationTxt.isDisplayed()) {
+			return true;
+		}
+		return false;
+	}
 
 	
 	

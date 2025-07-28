@@ -22,11 +22,14 @@
   <parameter name="browser" value="chrome"></parameter>
   
   <classes>
-<!--      <class name="testCases.TC0001_AccountRegistrationTest"/>-->
+<!--      <class name="testCases.TC0001_AccountRegistrationTest"/>   -->
 <!--      <class name="testCases.TC0002_AccountLogin"></class> -->
-<!--      <class name="testCases.TC0003_LoginWithExcelDataTest"></class>-->
-<!--      <class name="testCases.TC0004_AddToCartTest"></class>-->
-      <class name="testCases.TC0005_AddMultipleProductsToCartTest"></class>
+<!--      <class name="testCases.TC0003_LoginWithExcelDataTest"></class> -->
+<!--      <class name="testCases.TC0004_AddToCartTest"></class> -->
+  <!--     <class name="testCases.TC0005_AddMultipleProductsToCartTest"></class> -->
+     <!--  <class name="testCases.TC0006_RequiredFieldValidation"></class> -->
+  <!--    <class name="testCases.TC0007_PasswordValidation"></class> -->
+      <class name="testCases.TC0008_EmailValidations"></class>
     </classes>
   
   </test> <!-- Test -->

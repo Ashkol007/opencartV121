@@ -19,6 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
@@ -29,7 +30,7 @@ public class BaseClass {
 	
 	@BeforeClass(groups={"Sanity","Master","Regression"})
 	@Parameters({"os","browser"})
-	public void setup(String os,String br) throws IOException {
+	public void setup(String os,@Optional("chrome") String br) throws IOException {
 		
 		logger = LogManager.getLogger(this.getClass());
 		
@@ -54,10 +55,13 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 	
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void tearDown() {
+		if (driver != null) {
+            System.out.println(">> AfterMethod: Closing browser");
+            driver.quit();
+        }
 		driver.close();
-		driver.quit();
 	}
 	
 	public RandomStringGenerator Str_Gen = new RandomStringGenerator.Builder().withinRange('a','z').build();
