@@ -28,7 +28,7 @@
 <!--      <class name="testCases.TC0004_AddToCartTest"></class> -->
   <!--     <class name="testCases.TC0005_AddMultipleProductsToCartTest"></class> -->
      <!--  <class name="testCases.TC0006_RequiredFieldValidation"></class> -->
-  <!--    <class name="testCases.TC0007_PasswordValidation"></class> -->
+    <class name="testCases.TC0007_PasswordValidation"></class> 
       <class name="testCases.TC0008_EmailValidations"></class>
     </classes>
   

@@ -55,13 +55,21 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 	
-	@AfterClass(alwaysRun = true)
-	public void tearDown() {
-		if (driver != null) {
-            System.out.println(">> AfterMethod: Closing browser");
-            driver.quit();
-        }
-		driver.close();
+	@AfterClass
+	public void teardown() {
+	    if (driver != null) {
+	        try {
+	            driver.quit();
+	        } catch (org.openqa.selenium.NoSuchSessionException e) {
+	            System.out.println("Session already closed: " + e.getMessage());
+	        } catch (Exception e) {
+	            System.out.println("Unexpected error during driver.quit(): " + e.getMessage());
+	        } finally {
+	            driver = null;
+	        }
+	    } else {
+	        System.out.println("Driver already null — skipped driver.quit()");
+	    }
 	}
 	
 	public RandomStringGenerator Str_Gen = new RandomStringGenerator.Builder().withinRange('a','z').build();
