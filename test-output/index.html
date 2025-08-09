@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Master_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Master Suite</span>
+              <span class="suite-name border-failed">Master Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Master_Suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">18 methods, 2 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods failed suite-Master_Suite"> (hide)</a> <!-- hide-methods failed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods failed suite-Master_Suite"> (show)</a> <!-- show-methods failed suite-Master_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Master_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0012_AddProducttoWishlist" class="method navigator-link" hash-for-method="addProducttoWishList">addProducttoWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0015_CheckProductCompare" class="method navigator-link" hash-for-method="isProductAvailableBySearch">isProductAvailableBySearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Master_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +122,82 @@
                     <div class="method-list-content passed suite-Master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0004_AddToCartTest" class="method navigator-link" hash-for-method="AddTocartFromHomePage">AddTocartFromHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0013_CheckCartCount" class="method navigator-link" hash-for-method="AddTocartFromHomePage">AddTocartFromHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0003_LoginWithExcelDataTest" class="method navigator-link" hash-for-method="LoginTestData(ashitosh1@gmail.com, 12345, Valid)">LoginTestData(ashitosh1@gmail.com, 12345, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0003_LoginWithExcelDataTest" class="method navigator-link" hash-for-method="LoginTestData(ashitosh@gmail.com, 12345, Valid)">LoginTestData(ashitosh@gmail.com, 12345, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0003_LoginWithExcelDataTest" class="method navigator-link" hash-for-method="LoginTestData(ashitosh3@gmail.com, 12345, Valid)">LoginTestData(ashitosh3@gmail.com, 12345, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0014_LoginWithWrongCredentials" class="method navigator-link" hash-for-method="accountLogin">accountLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0002_AccountLogin" class="method navigator-link" hash-for-method="accountLogin">accountLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0001_AccountRegistrationTest" class="method navigator-link" hash-for-method="accountRegistraion">accountRegistraion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0006_RequiredFieldValidation" class="method navigator-link" hash-for-method="accountRegistraion">accountRegistraion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0005_AddMultipleProductsToCartTest" class="method navigator-link" hash-for-method="addMultipleToCartFromLaptopsAndNoteBook">addMultipleToCartFromLaptopsAndNoteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0007_PasswordValidation" class="method navigator-link" hash-for-method="checkPasswordValidation">checkPasswordValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0008_EmailValidations" class="method navigator-link" hash-for-method="emailValidation">emailValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0009_ForgotPassword" class="method navigator-link" hash-for-method="emailValidation">emailValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0010_SearchFunctionality" class="method navigator-link" hash-for-method="isProductAvailableBySearch">isProductAvailableBySearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0016_SubscribeToNewsletter" class="method navigator-link" hash-for-method="subscribeToNewsletter">subscribeToNewsletter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC0011_MobileViewTestcase" class="method navigator-link" hash-for-method="testMobileLayout">testMobileLayout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Master_Suite -->
@@ -118,6 +212,61 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Master_Suite" class="panel Master_Suite">
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC0015_CheckProductCompare</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isProductAvailableBySearch">
+                  </a> <!-- isProductAvailableBySearch -->
+                  <span class="method-name">isProductAvailableBySearch</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCases.TC0015_CheckProductCompare.isProductAvailableBySearch(TC0015_CheckProductCompare.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC0012_AddProducttoWishlist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProducttoWishList">
+                  </a> <!-- addProducttoWishList -->
+                  <span class="method-name">addProducttoWishList</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCases.TC0012_AddProducttoWishlist.addProducttoWishList(TC0012_AddProducttoWishlist.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0011_MobileViewTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMobileLayout">
+                  </a> <!-- testMobileLayout -->
+                  <span class="method-name">testMobileLayout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -129,6 +278,203 @@
                   <a name="emailValidation">
                   </a> <!-- emailValidation -->
                   <span class="method-name">emailValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0007_PasswordValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPasswordValidation">
+                  </a> <!-- checkPasswordValidation -->
+                  <span class="method-name">checkPasswordValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0003_LoginWithExcelDataTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTestData(ashitosh1@gmail.com, 12345, Valid)">
+                  </a> <!-- LoginTestData(ashitosh1@gmail.com, 12345, Valid) -->
+                  <span class="method-name">LoginTestData</span>
+                  <span class="parameters">(ashitosh1@gmail.com,12345,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTestData(ashitosh@gmail.com, 12345, Valid)">
+                  </a> <!-- LoginTestData(ashitosh@gmail.com, 12345, Valid) -->
+                  <span class="method-name">LoginTestData</span>
+                  <span class="parameters">(ashitosh@gmail.com,12345,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTestData(ashitosh3@gmail.com, 12345, Valid)">
+                  </a> <!-- LoginTestData(ashitosh3@gmail.com, 12345, Valid) -->
+                  <span class="method-name">LoginTestData</span>
+                  <span class="parameters">(ashitosh3@gmail.com,12345,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0004_AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddTocartFromHomePage">
+                  </a> <!-- AddTocartFromHomePage -->
+                  <span class="method-name">AddTocartFromHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0002_AccountLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountLogin">
+                  </a> <!-- accountLogin -->
+                  <span class="method-name">accountLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0005_AddMultipleProductsToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMultipleToCartFromLaptopsAndNoteBook">
+                  </a> <!-- addMultipleToCartFromLaptopsAndNoteBook -->
+                  <span class="method-name">addMultipleToCartFromLaptopsAndNoteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0010_SearchFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isProductAvailableBySearch">
+                  </a> <!-- isProductAvailableBySearch -->
+                  <span class="method-name">isProductAvailableBySearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0016_SubscribeToNewsletter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="subscribeToNewsletter">
+                  </a> <!-- subscribeToNewsletter -->
+                  <span class="method-name">subscribeToNewsletter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0013_CheckCartCount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddTocartFromHomePage">
+                  </a> <!-- AddTocartFromHomePage -->
+                  <span class="method-name">AddTocartFromHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0014_LoginWithWrongCredentials</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountLogin">
+                  </a> <!-- accountLogin -->
+                  <span class="method-name">accountLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0001_AccountRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountRegistraion">
+                  </a> <!-- accountRegistraion -->
+                  <span class="method-name">accountRegistraion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0009_ForgotPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailValidation">
+                  </a> <!-- emailValidation -->
+                  <span class="method-name">emailValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC0006_RequiredFieldValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountRegistraion">
+                  </a> <!-- accountRegistraion -->
+                  <span class="method-name">accountRegistraion</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,7 +510,22 @@
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testCases.TC0001_AccountRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0002_AccountLogin&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0003_LoginWithExcelDataTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0004_AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0005_AddMultipleProductsToCartTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0006_RequiredFieldValidation&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0007_PasswordValidation&quot;/&gt;
       &lt;class name=&quot;testCases.TC0008_EmailValidations&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0009_ForgotPassword&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0010_SearchFunctionality&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0011_MobileViewTestcase&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0012_AddProducttoWishlist&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0013_CheckCartCount&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0014_LoginWithWrongCredentials&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0015_CheckProductCompare&quot;/&gt;
+      &lt;class name=&quot;testCases.TC0016_SubscribeToNewsletter&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Master Suite --&gt;
@@ -178,7 +539,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (16 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,7 +553,63 @@
               <span class="test-group-name">Master</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">AddTocartFromHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginTestData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">accountLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addMultipleToCartFromLaptopsAndNoteBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addProducttoWishList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkPasswordValidation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">emailValidation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isProductAvailableBySearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">subscribeToNewsletter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMobileLayout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginTestData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">accountLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">accountRegistraion</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -212,16 +629,84 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'emailValidation')
-data.setCell(0, 2, 'testCases.TC0008_EmailValidations')
-data.setCell(0, 3, 1617);
+data.setCell(0, 2, 'testCases.TC0009_ForgotPassword')
+data.setCell(0, 3, 6825);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addMultipleToCartFromLaptopsAndNoteBook')
+data.setCell(1, 2, 'testCases.TC0005_AddMultipleProductsToCartTest')
+data.setCell(1, 3, 6674);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'subscribeToNewsletter')
+data.setCell(2, 2, 'testCases.TC0016_SubscribeToNewsletter')
+data.setCell(2, 3, 3190);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'accountRegistraion')
+data.setCell(3, 2, 'testCases.TC0001_AccountRegistrationTest')
+data.setCell(3, 3, 3178);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginTestData')
+data.setCell(4, 2, 'testCases.TC0003_LoginWithExcelDataTest')
+data.setCell(4, 3, 2887);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginTestData')
+data.setCell(5, 2, 'testCases.TC0003_LoginWithExcelDataTest')
+data.setCell(5, 3, 2636);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginTestData')
+data.setCell(6, 2, 'testCases.TC0003_LoginWithExcelDataTest')
+data.setCell(6, 3, 2572);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addProducttoWishList')
+data.setCell(7, 2, 'testCases.TC0012_AddProducttoWishlist')
+data.setCell(7, 3, 2557);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'accountLogin')
+data.setCell(8, 2, 'testCases.TC0002_AccountLogin')
+data.setCell(8, 3, 2011);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkPasswordValidation')
+data.setCell(9, 2, 'testCases.TC0007_PasswordValidation')
+data.setCell(9, 3, 1993);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'emailValidation')
+data.setCell(10, 2, 'testCases.TC0008_EmailValidations')
+data.setCell(10, 3, 1921);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'accountRegistraion')
+data.setCell(11, 2, 'testCases.TC0006_RequiredFieldValidation')
+data.setCell(11, 3, 1912);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'isProductAvailableBySearch')
+data.setCell(12, 2, 'testCases.TC0015_CheckProductCompare')
+data.setCell(12, 3, 1890);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMobileLayout')
+data.setCell(13, 2, 'testCases.TC0011_MobileViewTestcase')
+data.setCell(13, 3, 1769);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'accountLogin')
+data.setCell(14, 2, 'testCases.TC0014_LoginWithWrongCredentials')
+data.setCell(14, 3, 1707);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'isProductAvailableBySearch')
+data.setCell(15, 2, 'testCases.TC0010_SearchFunctionality')
+data.setCell(15, 3, 1450);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'AddTocartFromHomePage')
+data.setCell(16, 2, 'testCases.TC0013_CheckCartCount')
+data.setCell(16, 3, 1406);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'AddTocartFromHomePage')
+data.setCell(17, 2, 'testCases.TC0004_AddToCartTest')
+data.setCell(17, 3, 1392);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -247,19 +732,192 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC0008_EmailValidations</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC0001_AccountRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">emailValidation</span>
-                <span class="method-start">5563 ms</span>
+                <span class="method-name">accountRegistraion</span>
+                <span class="method-start">3879 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">7220 ms</span>
-              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0002_AccountLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">7108 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">accountLogin</span>
+                <span class="method-start">9546 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0003_LoginWithExcelDataTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">11560 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginTestData(ashitosh@gmail.com, 12345, Valid)</span>
+                <span class="method-start">16343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginTestData(ashitosh1@gmail.com, 12345, Valid)</span>
+                <span class="method-start">19238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginTestData(ashitosh3@gmail.com, 12345, Valid)</span>
+                <span class="method-start">21883 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0004_AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">24468 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddTocartFromHomePage</span>
+                <span class="method-start">27135 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0005_AddMultipleProductsToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">28528 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addMultipleToCartFromLaptopsAndNoteBook</span>
+                <span class="method-start">31072 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0006_RequiredFieldValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">37747 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">accountRegistraion</span>
+                <span class="method-start">40097 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0007_PasswordValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">42013 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkPasswordValidation</span>
+                <span class="method-start">44552 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0008_EmailValidations</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">46548 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">emailValidation</span>
+                <span class="method-start">49453 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0009_ForgotPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">51376 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">emailValidation</span>
+                <span class="method-start">53772 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0010_SearchFunctionality</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">60601 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isProductAvailableBySearch</span>
+                <span class="method-start">63560 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0011_MobileViewTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">65013 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testMobileLayout</span>
+                <span class="method-start">69613 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0012_AddProducttoWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">71385 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addProducttoWishList</span>
+                <span class="method-start">74067 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0013_CheckCartCount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">76858 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AddTocartFromHomePage</span>
+                <span class="method-start">81144 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0014_LoginWithWrongCredentials</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">82552 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">accountLogin</span>
+                <span class="method-start">85959 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0015_CheckProductCompare</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">87668 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isProductAvailableBySearch</span>
+                <span class="method-start">91557 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC0016_SubscribeToNewsletter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">93645 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subscribeToNewsletter</span>
+                <span class="method-start">97547 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

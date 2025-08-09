@@ -19,8 +19,13 @@ public class LoginPage extends Basepage {
 	@FindBy(name = "email") WebElement Inpemail;
     @FindBy(xpath="//input[@id='input-password']") WebElement Inppassword;
     @FindBy(xpath="//input[@value='Login']") WebElement Btnlogin;
-    @FindBy(xpath="//div[contains(@class,'alert') and text()='Warning: No match for E-Mail Address and/or Password.']")
-    WebElement PasswordValidationTxt;
+    @FindBy(xpath="//div[contains(@class,'alert') and text()='Warning: No match for E-Mail Address and/or Password.']")WebElement PasswordValidationTxt;
+    @FindBy(xpath="(//a[normalize-space()='Forgotten Password'])[1]") WebElement ForgotPassword;
+    @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']") WebElement ForgotPwdConfirmMsg;
+
+	@FindBy(xpath="//input[@placeholder='Search']") WebElement SearchInput;
+    @FindBy(xpath="//i[@class='fa fa-search']") WebElement SearchBtn;
+    @FindBy(xpath="(//div[@class='alert alert-danger alert-dismissible'])[1]")WebElement toastForInvalidEmail;
     
     public void sendEmail(String email) {
     	Inpemail.sendKeys(email);
@@ -41,7 +46,34 @@ public class LoginPage extends Basepage {
     	}
     	return false; 
     }
+    
+    public void clickForgotPassword() {
+        await.until(ExpectedConditions.elementToBeClickable(ForgotPassword));
+        ForgotPassword.click();
+    }
 
+    public Boolean isForgotPwdConfirmMessage() {
+      
+      if(ForgotPwdConfirmMsg.isDisplayed())	return true;
+      
+      return false;
+    }
+    
+    public void searchItem(String item) {
+
+	    await.until(ExpectedConditions.elementToBeClickable(SearchInput));
+		SearchInput.sendKeys(item);
+		SearchBtn.click();
+	}
+    
+    public Boolean isToastForInvalidEmail() {
+    	if(toastForInvalidEmail.isDisplayed()) return true;
+    	return false;
+    }
+    
+    public void clearSearchInput() {
+    	SearchInput.clear();
+    }
 
 
 	

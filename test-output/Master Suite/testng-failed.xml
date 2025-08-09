@@ -15,12 +15,18 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC0005_AddMultipleProductsToCartTest">
+      <class name="testCases.TC0015_CheckProductCompare">
         <methods>
           <include name="setup"/>
-          <include name="addMultipleToCartFromLaptopsAndNoteBook"/>
+          <include name="isProductAvailableBySearch"/>
         </methods>
-      </class> <!-- testCases.TC0005_AddMultipleProductsToCartTest -->
+      </class> <!-- testCases.TC0015_CheckProductCompare -->
+      <class name="testCases.TC0012_AddProducttoWishlist">
+        <methods>
+          <include name="setup"/>
+          <include name="addProducttoWishList"/>
+        </methods>
+      </class> <!-- testCases.TC0012_AddProducttoWishlist -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

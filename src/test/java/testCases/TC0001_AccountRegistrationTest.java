@@ -25,7 +25,7 @@ public class TC0001_AccountRegistrationTest extends BaseClass {
 	    
 	    Arp.setFirstname(nameGenerator(5));
 	    Arp.setLastName(nameGenerator(5));
-	    Arp.setEmail(nameGenerator(5)+"@gmaiil.com");
+	    Arp.setEmail(nameGenerator(5)+"@gmail.com");
 	    Arp.setTelephone(numGenerator(10));
 	    Arp.setPassword("12345");
 	    Arp.setConfirmPwd("12345");

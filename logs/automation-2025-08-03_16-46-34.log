@@ -1,0 +1,4 @@
+16:46:38.064 [main] INFO  testCases.TC0007_PasswordValidation -  ************** TC0007_Password Validation TestCase started ***********
+16:46:39.691 [main] INFO  testCases.TC0007_PasswordValidation -  ************** TC0007_Password Validation TestCase ended *********** 
+16:46:42.415 [main] INFO  testCases.TC0008_EmailValidations -  ************** TC0008_Email Validation TestCase started ***********
+16:46:43.876 [main] INFO  testCases.TC0008_EmailValidations -  ************** TC0008_Email Validation TestCase ended *********** 

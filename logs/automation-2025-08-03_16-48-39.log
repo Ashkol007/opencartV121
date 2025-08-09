@@ -1,0 +1,27 @@
+16:48:55.416 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+16:48:55.443 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:48:55.445 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:48:55.448 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:48:55.467 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+16:48:55.494 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:48:55.495 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:48:55.497 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:48:55.510 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+16:48:55.524 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:48:55.526 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:48:55.527 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:48:55.537 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+16:48:55.547 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:48:55.548 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:48:55.549 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:48:55.561 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+16:48:55.571 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:48:55.574 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:48:55.576 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:48:55.596 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+16:49:06.166 [main] INFO  testCases.TC0006_RequiredFieldValidation -  ************** TC0006_Registration Validation Field TestCase started ***********
+16:49:07.469 [main] INFO  testCases.TC0006_RequiredFieldValidation -  ************** TC0006_Registration Validation Field TestCase ended *********** 
+16:49:10.252 [main] INFO  testCases.TC0007_PasswordValidation -  ************** TC0007_Password Validation TestCase started ***********
+16:49:11.648 [main] INFO  testCases.TC0007_PasswordValidation -  ************** TC0007_Password Validation TestCase ended *********** 
+16:49:14.475 [main] INFO  testCases.TC0008_EmailValidations -  ************** TC0008_Email Validation TestCase started ***********
+16:49:15.841 [main] INFO  testCases.TC0008_EmailValidations -  ************** TC0008_Email Validation TestCase ended *********** 

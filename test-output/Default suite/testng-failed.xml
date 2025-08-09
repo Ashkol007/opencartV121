@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC0008_EmailValidations">
+      <class name="testCases.TC0012_AddProducttoWishlist">
         <methods>
-          <include name="emailValidation"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="teardown"/>
+          <include name="addProducttoWishList"/>
         </methods>
-      </class> <!-- testCases.TC0008_EmailValidations -->
+      </class> <!-- testCases.TC0012_AddProducttoWishlist -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

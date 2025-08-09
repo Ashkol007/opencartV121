@@ -1,0 +1,11 @@
+18:04:50.328 [main] INFO  testCases.TC0015_CheckProductCompare -  ************** TC0015_Verify Compare Product started ***********
+18:04:52.786 [main] ERROR testCases.TC0015_CheckProductCompare - Error message for Account has created!!!
+18:04:52.788 [main] DEBUG testCases.TC0015_CheckProductCompare - invalid element state
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1276e7c031def029156b8afed4a20242, clearElement {id=f.12D3823BCF04BE6C474C66DAA06594BB.d.72400988868D9348F1949AE1965FB984.e.122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61595/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1276e7c031def029156b8afed4a20242)] -> xpath: //i[@class='fa fa-search']]
+Session ID: 1276e7c031def029156b8afed4a20242

@@ -1,0 +1,180 @@
+22:21:27.026 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+22:21:27.102 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.5, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=YOUR_ACCESS_KEY, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=YOUR_USERNAME, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.10]
+22:21:34.767 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:21:34.767 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:21:34.768 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+22:21:34.769 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:21:34.769 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:21:34.770 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+22:21:36.474 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:21:36.474 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:21:36.477 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+22:21:36.479 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:21:36.479 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:21:36.481 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+22:22:14.656 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+22:22:14.663 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.5, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=wxfWawp6XDpss2mbAdeh, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=ashitoshkole_vxLX0d, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=opencart browserstack build, version=1.0, PROJECT_NAME=Opencart_BrowserStack , BROWSERSTACK_SOURCE=java:eclipse:v1.0.10]
+22:22:14.672 [Worker-18: Launching mavenrun-5a407998-f445-4146-8389-152df583ef80] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:23:22.063 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:23:22.063 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:23:22.065 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+22:23:22.066 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:23:22.066 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:23:22.068 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+22:23:24.178 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:23:24.179 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:23:24.181 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+22:23:24.181 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:23:24.182 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:23:24.186 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+22:25:06.028 [Worker-23: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:25:06.030 [Worker-23: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+22:25:06.034 [Worker-23: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:25:06.034 [Worker-23: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+22:25:56.763 [Worker-25: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:25:56.765 [Worker-25: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+22:25:56.767 [Worker-25: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:25:56.768 [Worker-25: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+22:27:31.141 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:27:31.141 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:27:31.142 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+22:27:31.143 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:27:31.143 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:27:31.144 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+22:39:34.126 [Worker-34: Launching TC0011_BrowserStackMobileTesting.BrowserStackMobileTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:39:34.128 [Worker-34: Launching TC0011_BrowserStackMobileTesting.BrowserStackMobileTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+22:39:34.130 [Worker-34: Launching TC0011_BrowserStackMobileTesting.BrowserStackMobileTest] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:39:34.131 [Worker-34: Launching TC0011_BrowserStackMobileTesting.BrowserStackMobileTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+22:40:46.942 [Worker-24: Launching Executing test in D__Ecllipse_opencartV121] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:46:32.822 [Worker-24: Launching Executing test in D__Ecllipse_opencartV121] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:46:32.983 [Worker-24: Launching Executing test in D__Ecllipse_opencartV121] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:47:59.762 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:47:59.762 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:47:59.763 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+22:47:59.763 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:47:59.763 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:47:59.764 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+22:48:31.499 [Worker-24: Launching Executing test in D__Ecllipse_opencartV121] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:56:02.743 [Worker-44: Launching Executing test in D__Ecllipse_opencartV121] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:57:00.842 [Worker-44: Launching Executing test in D__Ecllipse_opencartV121] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:58:17.852 [Worker-46: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:58:17.854 [Worker-46: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+22:58:17.855 [Worker-46: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:58:17.856 [Worker-46: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+22:58:35.562 [Worker-46: Launching Executing test in D__Ecllipse_opencartV121] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:59:07.983 [Worker-44: Launching TC0011_BrowserStackMobileTesting.BrowserStackMobileTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:59:07.984 [Worker-44: Launching TC0011_BrowserStackMobileTesting.BrowserStackMobileTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+22:59:07.986 [Worker-44: Launching TC0011_BrowserStackMobileTesting.BrowserStackMobileTest] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:59:07.987 [Worker-44: Launching TC0011_BrowserStackMobileTesting.BrowserStackMobileTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:00:39.720 [Worker-47: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:00:39.721 [Worker-47: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:00:39.723 [Worker-47: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:00:39.724 [Worker-47: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:01:58.791 [Worker-45: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:01:58.792 [Worker-45: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:01:58.794 [Worker-45: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:01:58.795 [Worker-45: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:11:12.967 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:11:12.967 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:11:12.968 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+23:11:12.968 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:11:12.968 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:11:12.970 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+23:26:39.056 [Worker-52: Launching TC0011_MobileViewTestcase.testMobileLayout] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:26:39.057 [Worker-52: Launching TC0011_MobileViewTestcase.testMobileLayout] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:26:39.059 [Worker-52: Launching TC0011_MobileViewTestcase.testMobileLayout] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:26:39.059 [Worker-52: Launching TC0011_MobileViewTestcase.testMobileLayout] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:27:37.359 [Worker-60: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:27:37.360 [Worker-60: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:27:37.362 [Worker-60: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:27:37.363 [Worker-60: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:28:49.095 [Worker-63: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:28:49.097 [Worker-63: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:28:49.100 [Worker-63: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:28:49.101 [Worker-63: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:29:54.727 [Worker-63: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:29:54.728 [Worker-63: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:29:54.731 [Worker-63: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:29:54.731 [Worker-63: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:31:24.622 [Worker-59: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:31:24.623 [Worker-59: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:31:24.625 [Worker-59: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:31:24.625 [Worker-59: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:34:44.692 [Worker-66: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:34:44.693 [Worker-66: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:34:44.696 [Worker-66: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:34:44.697 [Worker-66: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:41:23.314 [Worker-70: Launching Executing test in D__Ecllipse_opencartV121] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:44:49.249 [Worker-71: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:44:49.250 [Worker-71: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:44:49.253 [Worker-71: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:44:49.254 [Worker-71: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:47:46.311 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:47:46.312 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:47:46.312 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+23:47:46.313 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:47:46.313 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:47:46.314 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+23:47:57.063 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:47:57.063 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:47:57.064 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+23:47:57.064 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:47:57.064 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:47:57.065 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+23:48:07.606 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:48:07.606 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:48:07.607 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+23:48:07.607 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:48:07.608 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:48:07.608 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+23:51:51.231 [Worker-74: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:51:51.232 [Worker-74: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:51:51.234 [Worker-74: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:51:51.235 [Worker-74: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:53:45.750 [Worker-72: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:53:45.752 [Worker-72: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:53:45.755 [Worker-72: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:53:45.756 [Worker-72: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+14:23:28.149 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:23:28.150 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:23:28.151 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+14:23:28.151 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:23:28.151 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:23:28.152 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+14:43:11.755 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:43:11.755 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:43:11.757 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+14:43:11.758 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:43:11.758 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:43:11.759 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+15:22:25.729 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:22:25.729 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:22:25.730 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/opencartV121
+15:22:25.730 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:22:25.730 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:22:25.731 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/opencartV121
+15:29:22.162 [Worker-123: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:29:22.163 [Worker-123: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:29:22.165 [Worker-123: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:29:22.165 [Worker-123: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+15:30:00.718 [Worker-123: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:30:00.720 [Worker-123: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:30:00.724 [Worker-123: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:30:00.726 [Worker-123: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+15:31:06.028 [Worker-121: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:31:06.030 [Worker-121: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:31:06.032 [Worker-121: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:31:06.033 [Worker-121: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+15:39:27.061 [Worker-127: Launching TC0012_AddProducttoWishlist] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:39:27.062 [Worker-127: Launching TC0012_AddProducttoWishlist] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:39:27.065 [Worker-127: Launching TC0012_AddProducttoWishlist] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:39:27.065 [Worker-127: Launching TC0012_AddProducttoWishlist] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+15:39:42.768 [Worker-125: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:39:42.770 [Worker-125: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:39:42.774 [Worker-125: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:39:42.775 [Worker-125: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+15:44:10.749 [Worker-127: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:44:10.751 [Worker-127: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+15:44:10.753 [Worker-127: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:44:10.753 [Worker-127: Launching opencartV121_testng.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+00:06:33.540 [Framework stop - Equinox Container: 9f51ec30-5c46-4e46-aaad-3261fdde7fb3] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 26 17:36:22 IST 2025</td>
+<td>Started on:</td><td>Thu Aug 07 23:58:57 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8214 ms)</td>
+<tr><td>Total time:</td><td>100 seconds (100968 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Master Sanity Regression </td>
 </tr><tr>
@@ -67,6 +67,93 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC0012_AddProducttoWishlist.addProducttoWishList()'><b>addProducttoWishList</b><br>Test class: testCases.TC0012_AddProducttoWishlist</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC0012_AddProducttoWishlist.addProducttoWishList(TC0012_AddProducttoWishlist.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1757718624", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1757718624'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC0012_AddProducttoWishlist.addProducttoWishList(TC0012_AddProducttoWishlist.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>2</td>
+<td>testCases.TC0012_AddProducttoWishlist@93cf163</td></tr>
+<tr>
+<td title='testCases.TC0015_CheckProductCompare.isProductAvailableBySearch()'><b>isProductAvailableBySearch</b><br>Test class: testCases.TC0015_CheckProductCompare</td>
+<td><div><pre>java.lang.AssertionError: null
+	at testCases.TC0015_CheckProductCompare.isProductAvailableBySearch(TC0015_CheckProductCompare.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2011996123", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2011996123'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC0015_CheckProductCompare.isProductAvailableBySearch(TC0015_CheckProductCompare.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>testCases.TC0015_CheckProductCompare@25bfcafd</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +163,85 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testCases.TC0003_LoginWithExcelDataTest.LoginTestData()'><b>LoginTestData</b><br>Test class: testCases.TC0003_LoginWithExcelDataTest<br>Parameters: ashitosh1@gmail.com, 12345, Valid</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC0003_LoginWithExcelDataTest@76012793</td></tr>
+<tr>
+<td title='testCases.TC0001_AccountRegistrationTest.accountRegistraion()'><b>accountRegistraion</b><br>Test class: testCases.TC0001_AccountRegistrationTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC0001_AccountRegistrationTest@497486b3</td></tr>
+<tr>
+<td title='testCases.TC0014_LoginWithWrongCredentials.accountLogin()'><b>accountLogin</b><br>Test class: testCases.TC0014_LoginWithWrongCredentials</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC0014_LoginWithWrongCredentials@7203c7ff</td></tr>
+<tr>
+<td title='testCases.TC0011_MobileViewTestcase.testMobileLayout()'><b>testMobileLayout</b><br>Test class: testCases.TC0011_MobileViewTestcase</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC0011_MobileViewTestcase@222eb8aa</td></tr>
+<tr>
+<td title='testCases.TC0007_PasswordValidation.checkPasswordValidation()'><b>checkPasswordValidation</b><br>Test class: testCases.TC0007_PasswordValidation</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC0007_PasswordValidation@3212a8d7</td></tr>
+<tr>
 <td title='testCases.TC0008_EmailValidations.emailValidation()'><b>emailValidation</b><br>Test class: testCases.TC0008_EmailValidations</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC0008_EmailValidations@8a589a2</td></tr>
+<td>testCases.TC0008_EmailValidations@7a1a3478</td></tr>
+<tr>
+<td title='testCases.TC0003_LoginWithExcelDataTest.LoginTestData()'><b>LoginTestData</b><br>Test class: testCases.TC0003_LoginWithExcelDataTest<br>Parameters: ashitosh@gmail.com, 12345, Valid</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC0003_LoginWithExcelDataTest@76012793</td></tr>
+<tr>
+<td title='testCases.TC0010_SearchFunctionality.isProductAvailableBySearch()'><b>isProductAvailableBySearch</b><br>Test class: testCases.TC0010_SearchFunctionality</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC0010_SearchFunctionality@55dfcc6</td></tr>
+<tr>
+<td title='testCases.TC0016_SubscribeToNewsletter.subscribeToNewsletter()'><b>subscribeToNewsletter</b><br>Test class: testCases.TC0016_SubscribeToNewsletter</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC0016_SubscribeToNewsletter@4b6690c0</td></tr>
+<tr>
+<td title='testCases.TC0002_AccountLogin.accountLogin()'><b>accountLogin</b><br>Test class: testCases.TC0002_AccountLogin</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC0002_AccountLogin@495fac5f</td></tr>
+<tr>
+<td title='testCases.TC0003_LoginWithExcelDataTest.LoginTestData()'><b>LoginTestData</b><br>Test class: testCases.TC0003_LoginWithExcelDataTest<br>Parameters: ashitosh3@gmail.com, 12345, Valid</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC0003_LoginWithExcelDataTest@76012793</td></tr>
+<tr>
+<td title='testCases.TC0005_AddMultipleProductsToCartTest.addMultipleToCartFromLaptopsAndNoteBook()'><b>addMultipleToCartFromLaptopsAndNoteBook</b><br>Test class: testCases.TC0005_AddMultipleProductsToCartTest</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC0005_AddMultipleProductsToCartTest@79d94571</td></tr>
+<tr>
+<td title='testCases.TC0006_RequiredFieldValidation.accountRegistraion()'><b>accountRegistraion</b><br>Test class: testCases.TC0006_RequiredFieldValidation</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC0006_RequiredFieldValidation@4dd02341</td></tr>
+<tr>
+<td title='testCases.TC0009_ForgotPassword.emailValidation()'><b>emailValidation</b><br>Test class: testCases.TC0009_ForgotPassword</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC0009_ForgotPassword@495b0487</td></tr>
+<tr>
+<td title='testCases.TC0004_AddToCartTest.AddTocartFromHomePage()'><b>AddTocartFromHomePage</b><br>Test class: testCases.TC0004_AddToCartTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC0004_AddToCartTest@635572a7</td></tr>
+<tr>
+<td title='testCases.TC0013_CheckCartCount.AddTocartFromHomePage()'><b>AddTocartFromHomePage</b><br>Test class: testCases.TC0013_CheckCartCount</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC0013_CheckCartCount@1852a3ff</td></tr>
 </table><p>
 </body>
 </html>

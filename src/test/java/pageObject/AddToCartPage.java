@@ -1,8 +1,11 @@
 package pageObject;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AddToCartPage extends Basepage {
 	
@@ -18,6 +21,8 @@ public class AddToCartPage extends Basepage {
 	 
 	 @FindBy(xpath="//table//tbody") WebElement CartTableTbody;
 	 
+	 @FindBy(xpath="//table[@class='table table-bordered']//tbody//tr//td[@class='text-center']") List<WebElement> ShopCartProducts;
+	 
 	 
 	 public Boolean isShopCartTable() {
 		 if(ShopCart_table.isDisplayed()) {
@@ -26,7 +31,19 @@ public class AddToCartPage extends Basepage {
 		 return false;
 	 }
 	 
-	
+	public int cartProductCount() {
+		
+		int Count = 0;
+		
+		for(WebElement product:ShopCartProducts) {
+			
+			Count++;
+			
+		}
+		
+		return Count;
+		
+	}
 	 
 	 
 	 

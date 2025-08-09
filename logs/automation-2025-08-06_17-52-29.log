@@ -1,0 +1,4 @@
+17:52:33.467 [main] INFO  testCases.TC0013_CheckCartCount - CheckCartCount Testcase  Started 
+17:52:35.243 [main] INFO  testCases.TC0013_CheckCartCount - CheckCartCount Testcase Ended
+17:52:37.385 [main] INFO  testCases.TC0014_LoginWithWrongCredentials - *********TC0014_Account Login With Wrong Credentials Started****************
+17:52:38.985 [main] INFO  testCases.TC0014_LoginWithWrongCredentials - *********TC0014_Account Login With Wrong Credentials Ended****************

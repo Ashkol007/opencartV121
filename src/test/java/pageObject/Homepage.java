@@ -23,10 +23,18 @@ public class Homepage extends Basepage {
 	@FindBy(xpath="//span[normalize-space()='Shopping Cart']") WebElement ShoppingCart_Btn;
 	@FindBy(xpath="(//span[contains(text(),'Add to Cart')])[2]") WebElement Iphone_atc;
 	@FindBy(xpath="(//span[contains(text(),'Add to Cart')])[1]") WebElement Macbook_atc;
+	@FindBy(xpath="(//span[contains(text(),'Add to Cart')])[1]") WebElement CanonEos_atc;
+    @FindBy(xpath="(//span[contains(text(),'Add to Cart')])[3]") WebElement AppleCinema_atc;
 	
 	@FindBy(xpath="//a[normalize-space()='Laptops & Notebooks']") WebElement LaptopAndNoteBooks_tab;
 	@FindBy(xpath="//a[normalize-space()='Show AllLaptops & Notebooks']") WebElement ShowAllLaptopAndNoteBook_opt;
 	
+	@FindBy(xpath="//input[@placeholder='Search']") WebElement SearchInput;
+	@FindBy(xpath="//i[@class='fa fa-search']") WebElement SearchBtn;
+	
+	@FindBy(xpath="(//button[@data-original-title='Compare this Product'])[1]") WebElement AddMacToCompareProds;
+    @FindBy(xpath="(//button[@data-original-title='Compare this Product'])[2]") WebElement AddiPhoneToCompareProds;
+    @FindBy(xpath="(//button[@data-original-title='Compare this Product'])[3]") WebElement AddAppleCinemaToCompareProds;
 	
 	public void myAccount(){
 		
@@ -44,8 +52,12 @@ public class Homepage extends Basepage {
 	}
 	
 	public void addtocart() {
+
+       await.until(ExpectedConditions.elementToBeClickable(Iphone_atc));
 		Iphone_atc.click();
 		Macbook_atc.click();
+//		CanonEos_atc.click();
+//		AppleCinema_atc.click();
 	}
 	
 	public void shoppingCart() {
@@ -56,6 +68,13 @@ public class Homepage extends Basepage {
 		LaptopAndNoteBooks_tab.click();
 //		await.until(ExpectedConditions.elementToBeClickable(ShowAllLaptopAnd))
 		ShowAllLaptopAndNoteBook_opt.click();
+	}
+	
+	public void searchItem(String item) {
+
+	    await.until(ExpectedConditions.elementToBeClickable(SearchInput));
+		SearchInput.sendKeys(item);
+		SearchBtn.click();
 	}
 	
 	

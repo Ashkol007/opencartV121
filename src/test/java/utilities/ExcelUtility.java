@@ -58,17 +58,11 @@ public class ExcelUtility {
 		xr= ws.getRow(rownum);
 		xc = xr.getCell(cellnum);
 		
-		
-
-	    DataFormatter formatter = new DataFormatter();
+		DataFormatter formatter = new DataFormatter();
 	    String xd = formatter.formatCellValue(xc);
 		
-		
-		
-		
-		wb.close();
+	    wb.close();
 		fi.close();
-		
 		
 		return xd;
 	}

@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+        <include name="Sanity"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.TC0008_EmailValidations">
+      <class name="testCases.TC0015_CheckProductCompare">
         <methods>
-          <include name="emailValidation"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="isProductAvailableBySearch"/>
         </methods>
-      </class> <!-- testCases.TC0008_EmailValidations -->
+      </class> <!-- testCases.TC0015_CheckProductCompare -->
+      <class name="testCases.TC0012_AddProducttoWishlist">
+        <methods>
+          <include name="setup"/>
+          <include name="addProducttoWishList"/>
+        </methods>
+      </class> <!-- testCases.TC0012_AddProducttoWishlist -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->

@@ -1,0 +1,3 @@
+17:56:14.939 [main] INFO  testCases.TC0015_CheckProductCompare -  ************** TC0015_Verify Compare Product started ***********
+17:56:49.238 [main] ERROR testCases.TC0015_CheckProductCompare - Error message for Account has created!!!
+17:56:49.238 [main] DEBUG testCases.TC0015_CheckProductCompare - Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='product comparison']' (tried for 10 second(s) with 500 milliseconds interval)
