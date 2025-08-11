@@ -25,15 +25,17 @@ public class AccountRegistrationPage extends Basepage {
 	@FindBy(xpath="//label[normalize-space()='No']")  WebElement RadNo;
     @FindBy(xpath="//input[@name='agree']") WebElement CheAgree;
 	@FindBy(xpath="//input[@value='Continue']") WebElement BtnContinue;
-	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']") WebElement SuccessTxt;
-	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement SuccessContinue;
 	
 	@FindBy(xpath="//div[@class='text-danger' and contains(text(),'First Name')]") WebElement RequiredFieldFirstName;
     @FindBy(xpath="//div[@class='text-danger' and contains(text(),'Last Name')]") WebElement RequiredFieldLastName;
     @FindBy(xpath="//div[contains(@class,'alert')]") WebElement WarningMsg;
     
     @FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]") WebElement EmailValidationTxt;
-	
+    
+
+	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']") WebElement SuccessTxt;
+	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement SuccessContinue;
+	@FindBy(xpath="//div[@id='content']") WebElement AccountSuccessContent;
 	
 	public void setFirstname(String firstname){
 		
@@ -108,6 +110,15 @@ public class AccountRegistrationPage extends Basepage {
 		if(EmailValidationTxt.isDisplayed()) {
 			return true;
 		}
+		return false;
+	}
+	
+	public Boolean accountSuccessContent(String expectedText) {
+		
+		String actualText =  AccountSuccessContent.getText();
+		
+		if(actualText.contains(expectedText)) return true;
+	
 		return false;
 	}
 

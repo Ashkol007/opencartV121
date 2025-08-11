@@ -15,18 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC0015_CheckProductCompare">
+      <class name="testCases.TC0001_AccountRegistrationTest">
         <methods>
           <include name="setup"/>
-          <include name="isProductAvailableBySearch"/>
+          <include name="accountRegistraion"/>
         </methods>
-      </class> <!-- testCases.TC0015_CheckProductCompare -->
-      <class name="testCases.TC0012_AddProducttoWishlist">
-        <methods>
-          <include name="setup"/>
-          <include name="addProducttoWishList"/>
-        </methods>
-      </class> <!-- testCases.TC0012_AddProducttoWishlist -->
+      </class> <!-- testCases.TC0001_AccountRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

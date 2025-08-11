@@ -35,7 +35,25 @@ public class TC0001_AccountRegistrationTest extends BaseClass {
 	    
 	   
 	    Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
-	    Arp.submitSuccess();
+	    
+	    
+	    String expectedTxt1 = "Congratulations! Your new account has been successfully created!";
+
+        String expectedTxt2 = "You can now take advantage of member privileges to enhance your online shopping experience with us.";
+
+        String expectedTxt3 = "If you have ANY questions about the operation of this online shop, please e-mail the store owner.";
+
+        String expectedTxt4 = "A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please ";
+        
+        Assert.assertEquals(Arp.accountSuccessContent(expectedTxt1), true);
+
+        Assert.assertEquals(Arp.accountSuccessContent(expectedTxt2), true);
+
+        Assert.assertEquals(Arp.accountSuccessContent(expectedTxt3), true);
+
+        Assert.assertEquals(Arp.accountSuccessContent(expectedTxt4), true);
+        
+        Arp.submitSuccess();
 	    
 	    logger.info(" ************** TC0001_AccountRegistrationTest TestCase ended *********** ");
 	    
