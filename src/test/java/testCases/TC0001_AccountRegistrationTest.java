@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObject.AccountRegistrationPage;
+import pageObject.AccountSuccessPage;
 import pageObject.Homepage;
 
 public class TC0001_AccountRegistrationTest extends BaseClass {
@@ -22,6 +23,7 @@ public class TC0001_AccountRegistrationTest extends BaseClass {
 		
 		
 	    AccountRegistrationPage Arp = new AccountRegistrationPage(driver);
+	    AccountSuccessPage Asp = new AccountSuccessPage(driver);
 	    
 	    Arp.setFirstname(nameGenerator(5));
 	    Arp.setLastName(nameGenerator(5));
@@ -36,6 +38,7 @@ public class TC0001_AccountRegistrationTest extends BaseClass {
 	   
 	    Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
 	    
+	    Assert.assertEquals(Asp.isAccountSuccessPage(), true);
 	    
 	    String expectedTxt1 = "Congratulations! Your new account has been successfully created!";
 
@@ -45,15 +48,15 @@ public class TC0001_AccountRegistrationTest extends BaseClass {
 
         String expectedTxt4 = "A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please ";
         
-        Assert.assertEquals(Arp.accountSuccessContent(expectedTxt1), true);
+        Assert.assertEquals(Asp.accountSuccessContent(expectedTxt1), true);
 
-        Assert.assertEquals(Arp.accountSuccessContent(expectedTxt2), true);
+        Assert.assertEquals(Asp.accountSuccessContent(expectedTxt2), true);
 
-        Assert.assertEquals(Arp.accountSuccessContent(expectedTxt3), true);
+        Assert.assertEquals(Asp.accountSuccessContent(expectedTxt3), true);
 
-        Assert.assertEquals(Arp.accountSuccessContent(expectedTxt4), true);
+        Assert.assertEquals(Asp.accountSuccessContent(expectedTxt4), true);
         
-        Arp.submitSuccess();
+        Arp.submitSuccess(); 
 	    
 	    logger.info(" ************** TC0001_AccountRegistrationTest TestCase ended *********** ");
 	    

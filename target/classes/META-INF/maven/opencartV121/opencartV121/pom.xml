@@ -87,6 +87,13 @@
      <version>1.28.0</version> <!-- Or latest stable non-agent version -->
      <scope>compile</scope>
     </dependency>
+    
+    <dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>jakarta.mail</artifactId>
+    <version>2.0.1</version>
+</dependency>
+
 
 
 
