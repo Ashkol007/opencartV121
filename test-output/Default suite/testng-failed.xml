@@ -6,8 +6,8 @@
       <class name="testCases.TC0001_AccountRegistrationTest">
         <methods>
           <include name="setup"/>
-          <include name="accountRegistraion"/>
           <include name="teardown"/>
+          <include name="accountRegistraion"/>
         </methods>
       </class> <!-- testCases.TC0001_AccountRegistrationTest -->
     </classes>

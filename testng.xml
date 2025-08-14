@@ -25,8 +25,9 @@
   
   
   <classes>
-       <class name="testCases.TC0001_AccountRegistrationTest"/>   
-   <!--   <class name="testCases.TC0002_AccountLogin"></class> 
+   
+   <!-- <class name="testCases.TC0001_AccountRegistrationTest"/> 
+      <class name="testCases.TC0002_AccountLogin"></class> 
       <class name="testCases.TC0003_LoginWithExcelDataTest"></class> 
       <class name="testCases.TC0004_AddToCartTest"></class> 
       <class name="testCases.TC0005_AddMultipleProductsToCartTest"></class> 
@@ -41,6 +42,10 @@
       <class name="testCases.TC0014_LoginWithWrongCredentials"></class>
       <class name="testCases.TC0015_CheckProductCompare"></class> 
       <class name="testCases.TC0016_SubscribeToNewsletter"></class>-->
+      <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"></class>  
+      
+      <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>  
+       
     </classes>
   
   </test> <!-- Test -->

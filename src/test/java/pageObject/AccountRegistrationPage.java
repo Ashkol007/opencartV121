@@ -1,5 +1,6 @@
 package pageObject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,6 +32,20 @@ public class AccountRegistrationPage extends Basepage {
     @FindBy(xpath="//div[contains(@class,'alert')]") WebElement WarningMsg;
     
     @FindBy(xpath="//div[contains(text(),'E-Mail Address does not appear to be valid!')]") WebElement EmailValidationTxt;
+    
+    @FindBy(xpath = "//div[@class='text-danger' and contains(text(),'First Name')]")
+    private WebElement firstNameWarningMsg;
+
+    @FindBy(xpath = "//div[contains(text(),'Last Name must be between 1 and 32 characters!')]")
+    private WebElement lastNameWarningMsg;
+
+    @FindBy(xpath = "//div[contains(text(),'Telephone must be between 3 and 32 characters!')]")
+    private WebElement telephoneWarningMsg;
+
+    @FindBy(xpath = "//div[contains(text(),'Password must be between 4 and 20 characters!')]")
+    private WebElement passwordWarningMsg;
+
+
     
 
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']") WebElement SuccessTxt;
@@ -121,7 +136,37 @@ public class AccountRegistrationPage extends Basepage {
 	
 		return false;
 	}
+	
+	
+	public Boolean firstNameValidation() {
+		if(firstNameWarningMsg.isDisplayed()) return true;
+		return false;
+	}
+	
+	public Boolean larstNameValidation() {
+		if(lastNameWarningMsg.isDisplayed()) return true;
+		return false;
+	}
+	
+	public Boolean telephoneValidation() {
+		if(telephoneWarningMsg.isDisplayed()) return true;
+		return false;
+	}
+	
+	public Boolean paswordValidation() {
+		if(passwordWarningMsg.isDisplayed()) return true;
+		return false;
+	}
 
+	public void selectYesForNewsletterSubscribe() {
+		await.until(ExpectedConditions.elementToBeClickable(RadYes));
+		RadYes.click();
+	}
+	
+	public void selectNoForNewsletterSubscribe() {
+		await.until(ExpectedConditions.elementToBeClickable(RadNo));
+		RadYes.click();
+	}
 	
 	
 	

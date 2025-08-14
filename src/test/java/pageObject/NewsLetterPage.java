@@ -14,6 +14,8 @@ public class NewsLetterPage extends Basepage {
 	
 	
 	@FindBy(xpath="//input[@type='radio'][@value='1']") WebElement Subscribe_Yes_Radio;
+
+	@FindBy(xpath="//input[@type='radio'][@value='0']") WebElement Subscribe_No_Radio;
 	@FindBy(xpath="//input[@value='Continue']") WebElement Continue;
 	
 	
@@ -29,6 +31,26 @@ public class NewsLetterPage extends Basepage {
     	await.until(ExpectedConditions.elementToBeClickable(Continue)).click();
 	
 	}
+	
+	public Boolean isSubscribeYesSelected() {
+		
+
+    	await.until(ExpectedConditions.elementToBeClickable(Subscribe_Yes_Radio));
+    	
+    	if(Subscribe_Yes_Radio.isSelected()) return true;
+    	return false;
+	}
+	
+	public Boolean isSubscribeNoSelected() {
+		
+
+    	await.until(ExpectedConditions.elementToBeClickable(Subscribe_No_Radio));
+    	
+    	if(Subscribe_No_Radio.isSelected()) return true;
+    	return false;
+	}
+	
+	
     
 
 }

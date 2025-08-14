@@ -1,0 +1,6 @@
+16:36:02.463 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase started ***********
+16:36:05.740 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
+16:36:08.368 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** TC_RF004_MandatoryFieldsNotifications TestCase started ***********
+16:36:09.342 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - Before click continue
+16:36:10.050 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - After click continue
+16:36:10.288 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** MandatoryFieldsNotifications TestCase ended *********** 

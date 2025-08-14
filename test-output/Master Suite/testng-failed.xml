@@ -21,6 +21,12 @@
           <include name="accountRegistraion"/>
         </methods>
       </class> <!-- testCases.TC0001_AccountRegistrationTest -->
+      <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications">
+        <methods>
+          <include name="setup"/>
+          <include name="accountRegistraion"/>
+        </methods>
+      </class> <!-- testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

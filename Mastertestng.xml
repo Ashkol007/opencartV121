@@ -1,0 +1,10 @@
+<suite name="Master Suite" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <suite-files>
+        <suite-file path="testng-register.xml"/>
+        <suite-file path="testng-logout.xml"/>
+    </suite-files>
+</suite>

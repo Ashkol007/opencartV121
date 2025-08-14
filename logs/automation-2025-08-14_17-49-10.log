@@ -1,0 +1,6 @@
+17:49:16.321 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** TC_RF004_MandatoryFieldsNotifications TestCase started ***********
+17:49:18.126 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - Before click continue
+17:49:18.713 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - After click continue
+17:49:18.967 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** MandatoryFieldsNotifications TestCase ended *********** 
+17:49:21.463 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase started ***********
+17:49:25.801 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
