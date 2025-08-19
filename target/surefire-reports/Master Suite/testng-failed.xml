@@ -15,12 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC0011_MobileViewTestcase">
+      <class name="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation">
         <methods>
           <include name="setup"/>
-          <include name="testMobileLayout"/>
+          <include name="checkForWrongPasswordMsgValidation"/>
         </methods>
-      </class> <!-- testCases.TC0011_MobileViewTestcase -->
+      </class> <!-- testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

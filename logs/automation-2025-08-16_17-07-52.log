@@ -1,0 +1,12 @@
+17:07:58.925 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase started ***********
+17:08:05.402 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase started 
+17:08:07.512 [main] ERROR testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage - Navigate to register Account page failed
+17:08:07.515 [main] DEBUG testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage - element click intercepted: Element <i class="fa fa-home"></i> is not clickable at point (218, 210). Other element would receive the click: <li>...</li>
+  (Session info: chrome=139.0.7258.67)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8ee212123a79a8fb83d071db52a8b7b, clickElement {id=f.65664F52F919B72FD564D34766B9DB1B.d.FCFB7865939E09851363E61B6BDFA8A0.e.124}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52322/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c8ee212123a79a8fb83d071db52a8b7b)] -> xpath: //i[@class='fa fa-home']]
+Session ID: c8ee212123a79a8fb83d071db52a8b7b

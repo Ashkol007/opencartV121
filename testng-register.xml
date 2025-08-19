@@ -24,10 +24,13 @@
  <classes>
    
    <!-- <class name="testCases.TC0001_AccountRegistrationTest"/> 
-      
-      <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"></class>  -->
-      
-      <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>  
+      <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"></class> 
+      <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>   
+      <class name="testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField"></class>  
+      <class name="testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage"></class>
+      <class name="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation"></class>
+      <class name="testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount"></class>-->
+      <class name="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail"></class>
        
     </classes>
   

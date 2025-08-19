@@ -6,20 +6,30 @@
   
   
     <dependencies>
-
     
+          <dependency>
+    <groupId>com.github.romankh3</groupId>
+    <artifactId>image-comparison</artifactId>
+    <version>4.4.0</version>
+</dependency>
+
+ 
+             
+    <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.23.0</version> <!-- or latest stable -->
+</dependency>
+
+        
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.21.0</version>
-        </dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.8.0</version>
+</dependency>
 
 
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v123</artifactId> <!-- or the latest available -->
-            <version>4.21.0</version>
-        </dependency>
+
 
         <dependency>
             <groupId>org.apache.poi</groupId>

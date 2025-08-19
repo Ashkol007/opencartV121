@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC0001_AccountRegistrationTest">
+      <class name="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail">
         <methods>
+          <include name="verifyRegisterAccountByInvalidEmail"/>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="accountRegistraion"/>
         </methods>
-      </class> <!-- testCases.TC0001_AccountRegistrationTest -->
+      </class> <!-- testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

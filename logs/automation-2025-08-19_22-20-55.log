@@ -1,0 +1,3 @@
+22:20:58.760 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase started
+22:21:20.306 [main] ERROR testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - Verify Register Account By Invalid Email Validation Failed
+22:21:20.308 [main] DEBUG testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='alert alert-danger alert-dismissible']' (tried for 10 second(s) with 500 milliseconds interval)

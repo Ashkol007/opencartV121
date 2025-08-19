@@ -1,0 +1,4 @@
+17:13:46.250 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase started ***********
+17:13:49.504 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase ended *********** 
+17:13:52.470 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase started 
+17:13:54.521 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase ended 

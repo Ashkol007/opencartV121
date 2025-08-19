@@ -1,0 +1,9 @@
+22:19:49.838 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase started
+22:20:10.432 [main] ERROR testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - Verify Register Account By Invalid Email Validation Failed
+22:20:10.435 [main] DEBUG testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - Error communicating with the remote browser. It may have died.
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7a70a906bcdc7577ee7fd20a9ba5aea, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7a70a906bcdc7577ee7fd20a9ba5aea

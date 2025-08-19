@@ -32,7 +32,7 @@ public class TC006_NoOptionForNewsLetterField extends BaseClass {
 	    Arp.setTelephone(numGenerator(10));
 	    Arp.setPassword("12345");
 	    Arp.setConfirmPwd("12345");
-	    Arp.selectYesForNewsletterSubscribe();
+	    Arp.selectNoForNewsletterSubscribe();
 	    Arp.setPrivacyPolicy();
 	    Arp.clickContinue();
 	    String confirmMsg = Arp.getConfirmationMsg();

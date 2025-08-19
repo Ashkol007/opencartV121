@@ -41,10 +41,10 @@
       <class name="testCases.TC0013_CheckCartCount"></class>
       <class name="testCases.TC0014_LoginWithWrongCredentials"></class>
       <class name="testCases.TC0015_CheckProductCompare"></class> 
-      <class name="testCases.TC0016_SubscribeToNewsletter"></class>-->
+      <class name="testCases.TC0016_SubscribeToNewsletter"></class>
       <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"></class>  
-      
-      <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>  
+      <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>  -->
+      <class name="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation"></class>
        
     </classes>
   

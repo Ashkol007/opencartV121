@@ -15,18 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC0001_AccountRegistrationTest">
+      <class name="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail">
         <methods>
+          <include name="verifyRegisterAccountByInvalidEmail"/>
           <include name="setup"/>
-          <include name="accountRegistraion"/>
         </methods>
-      </class> <!-- testCases.TC0001_AccountRegistrationTest -->
-      <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications">
-        <methods>
-          <include name="setup"/>
-          <include name="accountRegistraion"/>
-        </methods>
-      </class> <!-- testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -->
+      </class> <!-- testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

@@ -1,10 +1,24 @@
 package pageObject;
 
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
+
+import com.github.romankh3.image.comparison.ImageComparison;
+import com.github.romankh3.image.comparison.model.ImageComparisonResult;
 
 public class AccountRegistrationPage extends Basepage {
 	
@@ -14,8 +28,9 @@ public class AccountRegistrationPage extends Basepage {
 //		 TODO Auto-generated constructor stub
 	}
 	
-
-
+	
+	@FindBy(xpath="//i[@class='fa fa-home']") @CacheLookup private WebElement homeIcon;
+    @FindBy(xpath="//h1[normalize-space()='Register Account']")WebElement RegisterAccount_Heading; 
 	@FindBy(xpath="//input[@id='input-firstname']") WebElement InpFirstName;
 	@FindBy(xpath="//input[@id='input-lastname']") WebElement InpLastName;
 	@FindBy(xpath="//input[@id='input-email']") WebElement InpEmail;
@@ -51,6 +66,17 @@ public class AccountRegistrationPage extends Basepage {
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']") WebElement SuccessTxt;
 	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement SuccessContinue;
 	@FindBy(xpath="//div[@id='content']") WebElement AccountSuccessContent;
+    @FindBy(xpath="//input[@name='confirm']/following-sibling::div") WebElement ConfirmPwdWarningMsg;	
+    @FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") @CacheLookup private WebElement warningEMailAlreadyRegister;
+    @FindBy(xpath="//form[@class='form-horizontal']") WebElement AccountRegisterationForm;
+
+	
+	
+	public Boolean isRegisterAccountPage() {
+		
+		if(RegisterAccount_Heading.isDisplayed()) return true;
+		return false;
+	}
 	
 	public void setFirstname(String firstname){
 		
@@ -165,10 +191,74 @@ public class AccountRegistrationPage extends Basepage {
 	
 	public void selectNoForNewsletterSubscribe() {
 		await.until(ExpectedConditions.elementToBeClickable(RadNo));
-		RadYes.click();
+		RadNo.click();
 	}
 	
+	 public void homeIcon() {
+
+     	await.until(ExpectedConditions.elementToBeClickable(homeIcon));
+     	
+     	JavascriptExecutor js = (JavascriptExecutor) driver;
+     	 js.executeScript("arguments[0].click()", homeIcon);
+     	               
+     }
+	 
+	 public String confirmPwdWarningMsg() {
+		 
+
+	     	await.until(ExpectedConditions.elementToBeClickable(ConfirmPwdWarningMsg));
+	     	
+	     	if(ConfirmPwdWarningMsg.isDisplayed()) {
+	     	   return ConfirmPwdWarningMsg.getText(); 	
+	     	}
+	     	
+	     	return "Confirm Password Warning message is not displayed! ";
+		 
+	 }
+	 
+	 
+	 public String warningForPreviouslyRegisterdAccount() {
+		 
+
+	     	await.until(ExpectedConditions.elementToBeClickable(AccountRegisterationForm));
+	     	return warningEMailAlreadyRegister.getText();
+		 
+	 }
 	
+	 public Boolean getScreenShotOfRegistrationForm() throws IOException {
+
+	     	await.until(ExpectedConditions.elementToBeClickable(AccountRegisterationForm));
+		 
+		       File screenShot1 = AccountRegisterationForm.getScreenshotAs(OutputType.FILE);
+		       
+
+		       String fileName = "sc1Actual_" + System.currentTimeMillis() + ".png";
+		       File destination = new File(System.getProperty("user.dir") + "\\screenShots\\" + fileName);
+
+		       FileHandler.copy(screenShot1, destination); 
+		       
+			    BufferedImage actualBimg = ImageIO.read(new File(System.getProperty("user.dir")+"\\screenshots\\"+fileName));
+
+			    BufferedImage expectedBimg = ImageIO.read(new File(System.getProperty("user.dir")+"\\screenshots\\sc1Expected.png"));
+				
+			    ImageComparison imageComparison = new ImageComparison(expectedBimg, actualBimg);
+		        ImageComparisonResult result = imageComparison.compareImages();
+		        
+
+		        BufferedImage resultImage = result.getResult();
+
+			       String dfileName = "sc1Difference" + System.currentTimeMillis() + ".png";
+		        ImageIO.write(resultImage, "png",
+		                new File(System.getProperty("user.dir") + "\\screenshots\\" + dfileName));
+		        
+		        if(result.getDifferencePercent() > 0) {
+		        	return true;
+		        }
+		        
+		        return false;
+		        
+		       
+	 }
 	
 
 }

@@ -1,6 +1,6 @@
 package testCases;
 
-import org.openqa.selenium.remote.DesiredCapabilities;
+//import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

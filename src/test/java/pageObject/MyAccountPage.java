@@ -2,6 +2,7 @@ package pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,6 +23,7 @@ public class MyAccountPage extends Basepage {
         @FindBy(xpath="//span[@class='caret']") WebElement MyProfile;
         @FindBy(xpath="//a[normalize-space()='Subscribe / unsubscribe to newsletter']") WebElement NewsLetter_SubscribeOrUnsubscribe_Link;
         @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']") WebElement NewsLetter_SubscribeSuccess_Message;
+        
         
         
         
@@ -67,6 +69,10 @@ public class MyAccountPage extends Basepage {
         	if(NewsLetter_SubscribeSuccess_Message.isDisplayed()) return true;
         			return false;
         }
+        
+
+        
+       
         
         
         
