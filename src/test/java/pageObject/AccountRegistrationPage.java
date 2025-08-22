@@ -3,14 +3,17 @@ package pageObject;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 
 import javax.imageio.ImageIO;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
@@ -19,6 +22,8 @@ import org.testng.Assert;
 
 import com.github.romankh3.image.comparison.ImageComparison;
 import com.github.romankh3.image.comparison.model.ImageComparisonResult;
+
+import utilities.HelperFunctions;
 
 public class AccountRegistrationPage extends Basepage {
 	
@@ -31,12 +36,14 @@ public class AccountRegistrationPage extends Basepage {
 	
 	@FindBy(xpath="//i[@class='fa fa-home']") @CacheLookup private WebElement homeIcon;
     @FindBy(xpath="//h1[normalize-space()='Register Account']")WebElement RegisterAccount_Heading; 
+    
 	@FindBy(xpath="//input[@id='input-firstname']") WebElement InpFirstName;
 	@FindBy(xpath="//input[@id='input-lastname']") WebElement InpLastName;
 	@FindBy(xpath="//input[@id='input-email']") WebElement InpEmail;
 	@FindBy(xpath="//input[@id='input-telephone']") WebElement InpTelephone;
     @FindBy(xpath="//input[@id='input-password']") WebElement InpPassword;
     @FindBy(xpath="//input[@id='input-confirm']") WebElement InpConfirmPwd;
+    
     @FindBy(xpath="//label[normalize-space()='Yes']") WebElement RadYes;
 	@FindBy(xpath="//label[normalize-space()='No']")  WebElement RadNo;
     @FindBy(xpath="//input[@name='agree']") WebElement CheAgree;
@@ -69,6 +76,14 @@ public class AccountRegistrationPage extends Basepage {
     @FindBy(xpath="//input[@name='confirm']/following-sibling::div") WebElement ConfirmPwdWarningMsg;	
     @FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") @CacheLookup private WebElement warningEMailAlreadyRegister;
     @FindBy(xpath="//form[@class='form-horizontal']") WebElement AccountRegisterationForm;
+    
+
+@FindBy(xpath="//label[normalize-space()='First Name']") WebElement LabelFirstName;
+@FindBy(xpath="//label[normalize-space()='Last Name']") WebElement LabelLastName;
+@FindBy(xpath="//label[normalize-space()='E-Mail']")  WebElement LabelEmail;
+@FindBy(xpath="//label[normalize-space()='Telephone']") WebElement LabelTelephone;
+@FindBy(xpath="//label[normalize-space()='Password']") WebElement LabelPwd;
+@FindBy(xpath="//label[normalize-space()='Password Confirm']") WebElement ConfirmPwd;
 
 	
 	
@@ -259,6 +274,86 @@ public class AccountRegistrationPage extends Basepage {
 		        
 		       
 	 }
+	 
+	 
+	 public void registerUsingtheKeyboardKeys() {
+		 
+		 Actions act = new Actions(driver);
+		 
+		 HelperFunctions hf = new HelperFunctions();
+		 
+		 for(int i=0;i<23;i++) {
+
+			  act.sendKeys(Keys.TAB).perform();
+		 }
+		 
+		 act.sendKeys("Ashitosh").pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB)
+		 .sendKeys("Kole").pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB)
+		 .sendKeys(hf.nameGenerator(5)+"@gmail.com").pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB)
+		 .sendKeys("9309803610").pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB)
+		 .sendKeys("pwd9309803610").pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB)
+		 .sendKeys("pwd9309803610").pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB)
+		 .sendKeys(Keys.TAB).pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB).pause(Duration.ofSeconds(1))
+		 .sendKeys(Keys.SPACE)
+		 .pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB).sendKeys(Keys.ENTER)
+		 .build().perform();
+		 
+		 
+		  
+		 
+	 }
+	 
+	// First Name
+	 public String getFirstNamePlaceholder() {
+	     return InpFirstName.getAttribute("placeholder");
+	 }
+
+	 // Last Name
+	 public String getLastNamePlaceholder() {
+	     return InpLastName.getAttribute("placeholder");
+	 }
+
+	 // Email
+	 public String getEmailPlaceholder() {
+	     return InpEmail.getAttribute("placeholder");
+	 }
+
+	 // Telephone
+	 public String getTelephonePlaceholder() {
+	     return InpTelephone.getAttribute("placeholder");
+	 }
+
+	 // Password
+	 public String getPasswordPlaceholder() {
+	     return InpPassword.getAttribute("placeholder");
+	 }
+
+	 // Confirm Password
+	 public String getConfirmPasswordPlaceholder() {
+	     return InpConfirmPwd.getAttribute("placeholder");
+	 }
+	 
+	 
+	 public String getLabelBeforeContent(WebElement element) {
+		    JavascriptExecutor js = (JavascriptExecutor) driver;
+		    return (String) js.executeScript(
+		        "return window.getComputedStyle(arguments[0], '::before').getPropertyValue('content');", 
+		        element
+		    );
+		}
+	 
+	 
+	 public String checkForAstreixFirstNameText() {
+		 
+		 await.until(ExpectedConditions.visibilityOf(LabelFirstName));
+		 
+		 String beforeAstreix = getLabelBeforeContent(LabelFirstName);
+		        
+		 
+		 return beforeAstreix;
+	 }
+
+
 	
 
 }

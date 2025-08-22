@@ -29,9 +29,13 @@
       <class name="testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField"></class>  
       <class name="testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage"></class>
       <class name="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation"></class>
-      <class name="testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount"></class>-->
+      <class name="testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount"></class>
       <class name="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail"></class>
-       
+      <class name="testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber"></class>
+      <class name="testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys"></class>
+      <class name="testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder"></class>-->
+      <class name="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields"></class>
+
     </classes>
   
   </test> <!-- Test -->

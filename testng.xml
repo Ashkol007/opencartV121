@@ -44,7 +44,6 @@
       <class name="testCases.TC0016_SubscribeToNewsletter"></class>
       <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"></class>  
       <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>  -->
-      <class name="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation"></class>
        
     </classes>
   

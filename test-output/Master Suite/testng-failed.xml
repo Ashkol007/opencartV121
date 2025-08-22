@@ -15,12 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail">
+      <class name="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields">
         <methods>
-          <include name="verifyRegisterAccountByInvalidEmail"/>
           <include name="setup"/>
+          <include name="registerWithInvalidPhoneNumber"/>
         </methods>
-      </class> <!-- testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail -->
+      </class> <!-- testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-19T22:22:22 IST" name="Master Suite" finished-at="2025-08-19T22:22:30 IST" duration-ms="8044">
+  <suite started-at="2025-08-22T17:24:20 IST" name="Master Suite" finished-at="2025-08-22T17:24:26 IST" duration-ms="5939">
     <groups>
       <group name="Master">
-        <method signature="TC010_VerifyingRegisteringAccountByInvalidEmail.verifyRegisterAccountByInvalidEmail()[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@7203c7ff]" name="verifyRegisterAccountByInvalidEmail" class="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail"/>
+        <method signature="TC014_CheckifAstreixIsPresentForMandatoryFields.registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@7203c7ff]" name="registerWithInvalidPhoneNumber" class="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2025-08-19T22:22:22 IST" name="Test" finished-at="2025-08-19T22:22:30 IST" duration-ms="8044">
-      <class name="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@7203c7ff]" started-at="2025-08-19T22:22:22 IST" name="setup" finished-at="2025-08-19T22:22:27 IST" duration-ms="4864" status="PASS">
+    <test started-at="2025-08-22T17:24:20 IST" name="Test" finished-at="2025-08-22T17:24:26 IST" duration-ms="5939">
+      <class name="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@7203c7ff]" started-at="2025-08-22T17:24:20 IST" name="setup" finished-at="2025-08-22T17:24:25 IST" duration-ms="4488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterAccountByInvalidEmail()[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@7203c7ff]" started-at="2025-08-19T22:22:27 IST" name="verifyRegisterAccountByInvalidEmail" finished-at="2025-08-19T22:22:30 IST" duration-ms="2839" status="PASS">
+        <test-method signature="registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@7203c7ff]" started-at="2025-08-22T17:24:25 IST" name="registerWithInvalidPhoneNumber" finished-at="2025-08-22T17:24:26 IST" duration-ms="1066" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterAccountByInvalidEmail -->
-      </class> <!-- testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail -->
+        </test-method> <!-- registerWithInvalidPhoneNumber -->
+      </class> <!-- testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>
