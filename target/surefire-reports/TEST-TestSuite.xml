@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="68.43" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="173.265" tests="32" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire18190410110472323492\surefirebooter-20250823165516344_3.jar C:\Users\dell\AppData\Local\Temp\surefire18190410110472323492 2025-08-23T16-55-15_626-jvmRun1 surefire-20250823165516344_1tmp surefire_0-20250823165516344_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire2576891020292701461\surefirebooter-20250823170431296_3.jar C:\Users\dell\AppData\Local\Temp\surefire2576891020292701461 2025-08-23T17-04-30_847-jvmRun1 surefire-20250823170431296_1tmp surefire_0-20250823170431296_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Ecllipse\opencartV121\target\test-classes;D:\Ecllipse\opencartV121\target\classes;C:\Users\dell\.m2\repository\com\github\romankh3\image-comparison\4.4.0\image-comparison-4.4.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.0\selenium-java-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.0\selenium-api-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.0\selenium-chrome-driver-4.23.0.jar;C:\Users\dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.0\selenium-chromium-driver-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.0\selenium-json-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.0\selenium-manager-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.0\selenium-devtools-v125-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.0\selenium-devtools-v126-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.0\selenium-devtools-v127-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.0\selenium-devtools-v85-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.0\selenium-edge-driver-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.0\selenium-firefox-driver-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.0\selenium-http-4.23.0.jar;C:\Users\dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.0\selenium-ie-driver-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.0\selenium-remote-driver-4.23.0.jar;C:\Users\dell\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\dell\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dell\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\dell\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.0\selenium-os-4.23.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.0\selenium-safari-driver-4.23.0.jar;C:\Users\dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.0\selenium-support-4.23.0.jar;C:\Users\dell\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\dell\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\dell\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\dell\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\dell\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\dell\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\dell\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\dell\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\dell\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\dell\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\dell\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dell\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\dell\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\dell\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\dell\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\dell\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\dell\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\dell\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\dell\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\dell\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\dell\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\dell\.m2\repository\commons-io\commons-io\2.19.0\commons-io-2.19.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\dell\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.0\log4j-core-2.25.0.jar;C:\Users\dell\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.0\log4j-api-2.25.0.jar;C:\Users\dell\.m2\repository\com\browserstack\browserstack-java-sdk\1.28.0\browserstack-java-sdk-1.28.0.jar;C:\Users\dell\.m2\repository\com\sun\mail\jakarta.mail\2.0.1\jakarta.mail-2.0.1.jar;C:\Users\dell\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire18190410110472323492\surefirebooter-20250823165516344_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire2576891020292701461\surefirebooter-20250823170431296_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-2513"/>
@@ -59,129 +59,557 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="accountRegistraion" classname="testCases.TC0001_AccountRegistrationTest" time="2.659">
-    <system-out><![CDATA[16:55:24.086 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase started ***********
-16:55:26.708 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
+  <testcase name="accountRegistraion" classname="testCases.TC0001_AccountRegistrationTest" time="2.937">
+    <system-out><![CDATA[17:04:37.119 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase started ***********
+17:04:40.010 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 23, 2025 4:55:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 23, 2025 5:04:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:55:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:04:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="accountRegistraion" classname="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications" time="1.366">
-    <system-out><![CDATA[16:55:29.164 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** TC_RF004_MandatoryFieldsNotifications TestCase started ***********
-16:55:29.891 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - Before click continue
-16:55:30.384 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - After click continue
-16:55:30.526 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** MandatoryFieldsNotifications TestCase ended *********** 
+  <testcase name="accountRegistraion" classname="testCases.TC0001_AccountRegistrationTest" time="2.713">
+    <system-out><![CDATA[17:06:19.898 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase started ***********
+17:06:22.609 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:55:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:06:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:55:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:06:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="accountRegistraion" classname="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField" time="3.088">
-    <system-out><![CDATA[16:55:32.934 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase started ***********
-16:55:36.021 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
+  <testcase name="accountLogin" classname="testCases.TC0002_AccountLogin" time="2.095">
+    <system-out><![CDATA[17:04:42.820 [main] INFO  testCases.TC0002_AccountLogin - *********TC0002_AccountLogin_Test_Started****************
+17:04:44.562 [main] INFO  testCases.TC0002_AccountLogin - Heding Text Passed SuccessFullytrue
+17:04:44.562 [main] INFO  testCases.TC0002_AccountLogin - *********TC0002_AccountLogin_Test_Ended****************
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:55:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:04:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:55:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:04:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="accountRegistraion" classname="testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField" time="3.208">
-    <system-out><![CDATA[16:55:38.386 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase started ***********
-16:55:41.593 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase ended *********** 
+  <testcase name="LoginTestData[ashitosh@gmail.com, 12345, Valid](1)" classname="testCases.TC0003_LoginWithExcelDataTest" time="2.857">
+    <system-out><![CDATA[17:04:47.825 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:47.828 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:47.829 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.040 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+17:04:48.044 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:04:48.045 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:04:48.046 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:04:48.047 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:04:48.048 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:04:48.062 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+17:04:48.063 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:04:48.068 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+17:04:48.069 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:04:48.071 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+17:04:48.073 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:04:48.074 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+17:04:48.075 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+17:04:48.127 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+17:04:48.128 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+17:04:48.177 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+17:04:48.181 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+17:04:48.188 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+17:04:48.202 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+17:04:48.217 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+17:04:48.220 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctnumfmtsb58btype
+17:04:48.222 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctnumfmt3870type
+17:04:48.224 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+17:04:48.225 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+17:04:48.228 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+17:04:48.231 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+17:04:48.237 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+17:04:48.239 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+17:04:48.242 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+17:04:48.244 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+17:04:48.248 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+17:04:48.256 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+17:04:48.259 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+17:04:48.262 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+17:04:48.264 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.266 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+17:04:48.271 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+17:04:48.276 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+17:04:48.279 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+17:04:48.282 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+17:04:48.284 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+17:04:48.289 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+17:04:48.296 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+17:04:48.299 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+17:04:48.305 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+17:04:48.312 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+17:04:48.320 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+17:04:48.325 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+17:04:48.337 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+17:04:48.340 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+17:04:48.353 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.355 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.356 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.372 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.386 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.388 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.390 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.405 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.414 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+17:04:48.428 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.430 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.431 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.445 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.456 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+17:04:48.460 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbookpr03a5type
+17:04:48.472 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.473 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.474 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.487 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.502 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.505 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.506 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.518 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.532 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.533 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.535 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.548 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.562 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.564 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.565 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.576 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.590 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.591 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.593 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.604 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.618 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.619 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.620 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.632 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:48.645 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:04:48.646 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:04:48.647 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:04:48.665 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://www.wps.cn/officeDocument/2023/relationships/customStorage
+17:04:50.435 [main] INFO  testCases.TC0003_LoginWithExcelDataTest - ********Email*******ashitosh@gmail.com
+17:04:50.435 [main] INFO  testCases.TC0003_LoginWithExcelDataTest - *********PWD******12345
+17:04:50.475 [main] INFO  testCases.TC0003_LoginWithExcelDataTest - ******* Res :Valid
+17:04:51.531 [main] INFO  testCases.TC0003_LoginWithExcelDataTest - TestCase Passed
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:55:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:04:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:55:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:04:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="differentWaysToRegisterPage" classname="testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage" time="1.862">
-    <system-out><![CDATA[16:55:44.096 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase started 
-16:55:45.957 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase ended 
+  <testcase name="LoginTestData[ashitosh1@gmail.com, 12345, Valid](2)" classname="testCases.TC0003_LoginWithExcelDataTest" time="0.012">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObject.Homepage.myAccount(Homepage.java:41)
+	at testCases.TC0003_LoginWithExcelDataTest.LoginTestData(TC0003_LoginWithExcelDataTest.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "takeScreenShot" is null
+	at testCases.BaseClass.captureScreen(BaseClass.java:95)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:84)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></system-err>
+  </testcase>
+  <testcase name="LoginTestData[ashitosh3@gmail.com, 12345, Valid](3)" classname="testCases.TC0003_LoginWithExcelDataTest" time="0.009">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at pageObject.Homepage.myAccount(Homepage.java:41)
+	at testCases.TC0003_LoginWithExcelDataTest.LoginTestData(TC0003_LoginWithExcelDataTest.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Driver already null — skipped driver.quit()
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:55:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "takeScreenShot" is null
+	at testCases.BaseClass.captureScreen(BaseClass.java:95)
+	at utilities.ExtentReportManager.onTestFailure(ExtentReportManager.java:84)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></system-err>
+  </testcase>
+  <testcase name="AddTocartFromHomePage" classname="testCases.TC0004_AddToCartTest" time="1.19">
+    <system-out><![CDATA[Driver already null — skipped driver.quit()
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:04:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:55:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:04:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="checkForWrongPasswordMsgValidation" classname="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation" time="1.9">
-    <system-out><![CDATA[16:55:48.526 [main] INFO  testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation -  TC008_WrongConfirmPasswordValidation testcase stated
-16:55:50.424 [main] INFO  testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation - TC008_WrongConfirmPasswordValidation testcase passed
+  <testcase name="addMultipleToCartFromLaptopsAndNoteBook" classname="testCases.TC0005_AddMultipleProductsToCartTest" time="10.007">
+    <system-out><![CDATA[*****ProduImages*****[[[ChromeDriver: chrome on windows (4e78ba34fbce6bcea2df49502f1c9fef)] -> xpath: //div[@class='product-thumb']//img], [[ChromeDriver: chrome on windows (4e78ba34fbce6bcea2df49502f1c9fef)] -> xpath: //div[@class='product-thumb']//img], [[ChromeDriver: chrome on windows (4e78ba34fbce6bcea2df49502f1c9fef)] -> xpath: //div[@class='product-thumb']//img], [[ChromeDriver: chrome on windows (4e78ba34fbce6bcea2df49502f1c9fef)] -> xpath: //div[@class='product-thumb']//img], [[ChromeDriver: chrome on windows (4e78ba34fbce6bcea2df49502f1c9fef)] -> xpath: //div[@class='product-thumb']//img]]
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:55:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:04:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:55:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:04:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyRegisterAccount" classname="testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount" time="2.048">
-    <system-out><![CDATA[16:55:52.762 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - TC009_VerifyRegisterAccountByExistingAccount testcase started
-16:55:54.775 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - Warning message: Warning: E-Mail Address is already registered!
-16:55:54.810 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - TC009_VerifyRegisterAccountByExistingAccount testcase passed
+  <testcase name="accountRegistraion" classname="testCases.TC0006_RequiredFieldValidation" time="1.444">
+    <system-out><![CDATA[17:05:11.186 [main] INFO  testCases.TC0006_RequiredFieldValidation -  ************** TC0006_Registration Validation Field TestCase started ***********
+17:05:12.629 [main] INFO  testCases.TC0006_RequiredFieldValidation -  ************** TC0006_Registration Validation Field TestCase ended *********** 
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:55:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:05:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:55:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:05:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyRegisterAccountByInvalidEmail" classname="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail" time="2.374">
-    <system-out><![CDATA[16:55:57.371 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase started
-16:55:59.744 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase ended
+  <testcase name="checkPasswordValidation" classname="testCases.TC0007_PasswordValidation" time="1.524">
+    <system-out><![CDATA[17:05:15.596 [main] INFO  testCases.TC0007_PasswordValidation -  ************** TC0007_Password Validation TestCase started ***********
+17:05:17.119 [main] INFO  testCases.TC0007_PasswordValidation -  ************** TC0007_Password Validation TestCase ended *********** 
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:55:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:05:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:55:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:05:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="registerWithInvalidPhoneNumber" classname="testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber" time="1.626">
-    <system-out><![CDATA[16:56:02.237 [main] INFO  testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber - TC011_Register_Invalid_PoneNumber TestCase started
-16:56:03.861 [main] INFO  testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber - TC011_Register_Invalid_PoneNumber TestCase passed
+  <testcase name="emailValidation" classname="testCases.TC0008_EmailValidations" time="1.641">
+    <system-out><![CDATA[17:05:19.884 [main] INFO  testCases.TC0008_EmailValidations -  ************** TC0008_Email Validation TestCase started ***********
+17:05:21.524 [main] INFO  testCases.TC0008_EmailValidations -  ************** TC0008_Email Validation TestCase ended *********** 
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:56:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:05:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:56:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:05:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="registerUsingKeyboardKeys" classname="testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys" time="11.376">
-    <system-out><![CDATA[16:56:06.210 [main] INFO  testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys - TC012_ReigsterUsingKeyboardKeys TestCase started
-16:56:17.585 [main] INFO  testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys - TC012_ReigsterUsingKeyboardKeys TestCase passed
+  <testcase name="emailValidation" classname="testCases.TC0009_ForgotPassword" time="6.045">
+    <system-out><![CDATA[17:05:24.182 [main] INFO  testCases.TC0009_ForgotPassword -  ************** TC0008_ForgotPassword TestCase started ***********
+17:05:30.224 [main] INFO  testCases.TC0009_ForgotPassword -  ************** TC0009_ForgotPassword TestCase ended *********** 
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:56:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:05:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:56:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:05:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyRegisterPlaceholder" classname="testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder" time="0.861">
-    <system-out><![CDATA[16:56:19.982 [main] INFO  testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder - TC013_VerifyRegisterPlaceholder TestCase started
-16:56:20.842 [main] INFO  testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder - TC013_VerifyRegisterPlaceholder TestCase passed
+  <testcase name="isProductAvailableBySearch" classname="testCases.TC0010_SearchFunctionality" time="0.64">
+    <system-out><![CDATA[17:05:33.007 [main] INFO  testCases.TC0010_SearchFunctionality -  ************** TC0010_Search Product and Validate TestCase started ***********
+17:05:33.645 [main] INFO  testCases.TC0010_SearchFunctionality -  ************** TC0010_Search Product and Validate TestCase ended ***********
 ]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:56:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 23, 2025 5:05:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:56:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:05:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="registerWithInvalidPhoneNumber" classname="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields" time="0.874">
-    <system-out><![CDATA[16:56:23.400 [main] INFO  testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields - TC014_CheckifAstreixIsPresentForMandatoryFields TestCase started
-16:56:24.272 [main] INFO  testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields - TC014_CheckifAstreixIsPresentForMandatoryFields TestCase passed
-]]></system-out>
-    <system-err><![CDATA[Aug 23, 2025 4:56:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testMobileLayout" classname="testCases.TC0011_MobileViewTestcase" time="1.166">
+    <system-err><![CDATA[Aug 23, 2025 5:05:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 139
-Aug 23, 2025 4:56:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Aug 23, 2025 5:05:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="addProducttoWishList" classname="testCases.TC0012_AddProducttoWishlist" time="2.926">
+    <system-out><![CDATA[17:05:40.564 [main] INFO  testCases.TC0012_AddProducttoWishlist -  ************** TC0012_Search Product and Check if present in wishlist started ***********
+17:05:43.489 [main] INFO  testCases.TC0012_AddProducttoWishlist -  ************** TC0012_Search Product and Check if present in wishlist ended ***********
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:05:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:05:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="AddTocartFromHomePage" classname="testCases.TC0013_CheckCartCount" time="1.205">
+    <system-out><![CDATA[17:05:46.198 [main] INFO  testCases.TC0013_CheckCartCount - CheckCartCount Testcase  Started 
+2
+17:05:47.401 [main] INFO  testCases.TC0013_CheckCartCount - CheckCartCount Testcase Ended
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:05:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:05:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="accountLogin" classname="testCases.TC0014_LoginWithWrongCredentials" time="1.637">
+    <system-out><![CDATA[17:05:50.126 [main] INFO  testCases.TC0014_LoginWithWrongCredentials - *********TC0014_Account Login With Wrong Credentials Started****************
+17:05:51.762 [main] INFO  testCases.TC0014_LoginWithWrongCredentials - *********TC0014_Account Login With Wrong Credentials Ended****************
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:05:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:05:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="isProductAvailableBySearch" classname="testCases.TC0015_CheckProductCompare" time="4.987">
+    <system-out><![CDATA[17:05:54.598 [main] INFO  testCases.TC0015_CheckProductCompare -  ************** TC0015_Verify Compare Product started ***********
+17:05:59.584 [main] INFO  testCases.TC0015_CheckProductCompare -  ************** TC0015_Verify Compare Product ended ***********
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:05:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:05:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="subscribeToNewsletter" classname="testCases.TC0016_SubscribeToNewsletter" time="2.793">
+    <system-out><![CDATA[17:06:02.277 [main] INFO  testCases.TC0016_SubscribeToNewsletter -  ************** TC0016_Subscribe for newsletter Successfully ***********
+17:06:05.068 [main] INFO  testCases.TC0016_SubscribeToNewsletter -  ************** TC0016_Subscribe for newsletter Successfully ***********
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="accountRegistraion" classname="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications" time="1.492">
+    <system-out><![CDATA[17:06:07.820 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** TC_RF004_MandatoryFieldsNotifications TestCase started ***********
+17:06:08.604 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - Before click continue
+17:06:08.704 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - After click continue
+17:06:09.310 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** MandatoryFieldsNotifications TestCase ended *********** 
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="accountRegistraion" classname="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications" time="1.614">
+    <system-out><![CDATA[17:06:25.241 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** TC_RF004_MandatoryFieldsNotifications TestCase started ***********
+17:06:26.025 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - Before click continue
+17:06:26.738 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - After click continue
+17:06:26.854 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** MandatoryFieldsNotifications TestCase ended *********** 
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="accountRegistraion" classname="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField" time="3.292">
+    <system-out><![CDATA[17:06:12.020 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase started ***********
+17:06:15.311 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="accountRegistraion" classname="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField" time="3.322">
+    <system-out><![CDATA[17:06:29.612 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase started ***********
+17:06:32.932 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="accountRegistraion" classname="testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField" time="3.305">
+    <system-out><![CDATA[17:06:35.554 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase started ***********
+17:06:38.858 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase ended *********** 
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="differentWaysToRegisterPage" classname="testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage" time="2.157">
+    <system-out><![CDATA[17:06:41.597 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase started 
+17:06:43.753 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase ended 
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="checkForWrongPasswordMsgValidation" classname="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation" time="1.887">
+    <system-out><![CDATA[17:06:46.838 [main] INFO  testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation -  TC008_WrongConfirmPasswordValidation testcase stated
+17:06:48.724 [main] INFO  testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation - TC008_WrongConfirmPasswordValidation testcase passed
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterAccount" classname="testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount" time="1.818">
+    <system-out><![CDATA[17:06:51.421 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - TC009_VerifyRegisterAccountByExistingAccount testcase started
+17:06:53.205 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - Warning message: Warning: E-Mail Address is already registered!
+17:06:53.239 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - TC009_VerifyRegisterAccountByExistingAccount testcase passed
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterAccountByInvalidEmail" classname="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail" time="1.97">
+    <system-out><![CDATA[17:06:56.475 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase started
+17:06:58.443 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase ended
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="registerWithInvalidPhoneNumber" classname="testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber" time="1.393">
+    <system-out><![CDATA[17:07:01.147 [main] INFO  testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber - TC011_Register_Invalid_PoneNumber TestCase started
+17:07:02.538 [main] INFO  testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber - TC011_Register_Invalid_PoneNumber TestCase passed
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:06:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:06:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="registerUsingKeyboardKeys" classname="testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys" time="11.383">
+    <system-out><![CDATA[17:07:05.145 [main] INFO  testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys - TC012_ReigsterUsingKeyboardKeys TestCase started
+17:07:16.527 [main] INFO  testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys - TC012_ReigsterUsingKeyboardKeys TestCase passed
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:07:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:07:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRegisterPlaceholder" classname="testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder" time="0.833">
+    <system-out><![CDATA[17:07:19.510 [main] INFO  testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder - TC013_VerifyRegisterPlaceholder TestCase started
+17:07:20.342 [main] INFO  testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder - TC013_VerifyRegisterPlaceholder TestCase passed
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:07:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:07:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="registerWithInvalidPhoneNumber" classname="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields" time="0.845">
+    <system-out><![CDATA[17:07:23.075 [main] INFO  testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields - TC014_CheckifAstreixIsPresentForMandatoryFields TestCase started
+17:07:23.919 [main] INFO  testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields - TC014_CheckifAstreixIsPresentForMandatoryFields TestCase passed
+]]></system-out>
+    <system-err><![CDATA[Aug 23, 2025 5:07:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 23, 2025 5:07:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 139.0.7258.67. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.23.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

@@ -1,0 +1,10 @@
+17:06:56.475 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase started
+17:06:58.443 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase ended
+17:07:01.147 [main] INFO  testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber - TC011_Register_Invalid_PoneNumber TestCase started
+17:07:02.538 [main] INFO  testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber - TC011_Register_Invalid_PoneNumber TestCase passed
+17:07:05.145 [main] INFO  testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys - TC012_ReigsterUsingKeyboardKeys TestCase started
+17:07:16.527 [main] INFO  testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys - TC012_ReigsterUsingKeyboardKeys TestCase passed
+17:07:19.510 [main] INFO  testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder - TC013_VerifyRegisterPlaceholder TestCase started
+17:07:20.342 [main] INFO  testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder - TC013_VerifyRegisterPlaceholder TestCase passed
+17:07:23.075 [main] INFO  testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields - TC014_CheckifAstreixIsPresentForMandatoryFields TestCase started
+17:07:23.919 [main] INFO  testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields - TC014_CheckifAstreixIsPresentForMandatoryFields TestCase passed

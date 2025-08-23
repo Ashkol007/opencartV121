@@ -1,0 +1,4 @@
+23:46:59.918 [main] INFO  testCases.RegisterFunctionality.TC015_EnterSpaceInMandatoryFields - TC015_EnterSpaceInMandatoryFields testcase started
+23:47:06.494 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** TC_RF004_MandatoryFieldsNotifications TestCase started ***********
+23:47:07.449 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - Before click continue
+23:47:08.124 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - After click continue

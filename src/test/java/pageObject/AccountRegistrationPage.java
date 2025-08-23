@@ -161,12 +161,10 @@ public class AccountRegistrationPage extends Basepage {
 	}
 	
 	
-	public Boolean emailValidation() {
+	public String emailValidation() {
 		   
-		if(EmailValidationTxt.isDisplayed()) {
-			return true;
-		}
-		return false;
+		return EmailValidationTxt.getText();
+		
 	}
 	
 	public Boolean accountSuccessContent(String expectedText) {
@@ -179,24 +177,24 @@ public class AccountRegistrationPage extends Basepage {
 	}
 	
 	
-	public Boolean firstNameValidation() {
-		if(firstNameWarningMsg.isDisplayed()) return true;
-		return false;
+	public String firstNameValidation() {
+		 return firstNameWarningMsg.getText();
 	}
 	
-	public Boolean larstNameValidation() {
-		if(lastNameWarningMsg.isDisplayed()) return true;
-		return false;
+	public String larstNameValidation() {
+		return lastNameWarningMsg.getText();
+		
 	}
 	
-	public Boolean telephoneValidation() {
-		if(telephoneWarningMsg.isDisplayed()) return true;
-		return false;
+	public String telephoneValidation() {
+	  
+		return telephoneWarningMsg.getText();
+		
 	}
 	
-	public Boolean paswordValidation() {
-		if(passwordWarningMsg.isDisplayed()) return true;
-		return false;
+	public String paswordValidation() {
+		return passwordWarningMsg.getText();
+		
 	}
 
 	public void selectYesForNewsletterSubscribe() {

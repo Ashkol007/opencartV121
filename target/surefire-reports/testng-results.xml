@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="32" passed="30" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-23T16:55:18 IST" name="Master Suite (0)" finished-at="2025-08-23T16:55:18 IST" duration-ms="284">
-    <groups>
-    </groups>
-    <test started-at="2025-08-23T16:55:18 IST" name="Test" finished-at="2025-08-23T16:55:18 IST" duration-ms="284">
-    </test> <!-- Test -->
-  </suite> <!-- Master Suite (0) -->
-  <suite started-at="2025-08-23T16:56:25 IST" name="Master Suite" finished-at="2025-08-23T16:56:25 IST" duration-ms="0">
-    <groups>
-    </groups>
-  </suite> <!-- Master Suite -->
-  <suite started-at="2025-08-23T16:55:20 IST" name="Master Suite (1)" finished-at="2025-08-23T16:56:24 IST" duration-ms="63574">
+  <suite started-at="2025-08-23T17:04:32 IST" name="Master Suite (0)" finished-at="2025-08-23T17:06:15 IST" duration-ms="102545">
     <groups>
       <group name="Master">
-        <method signature="TC007_NavigateToRegisterAccountPage.differentWaysToRegisterPage()[pri:0, instance:testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage@3016fd5e]" name="differentWaysToRegisterPage" class="testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage"/>
-        <method signature="TC008_WrongConfirmPasswordValidation.checkForWrongPasswordMsgValidation()[pri:0, instance:testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation@35d08e6c]" name="checkForWrongPasswordMsgValidation" class="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation"/>
-        <method signature="TC009_VerifyRegisterAccountByExistingAccount.verifyRegisterAccount()[pri:0, instance:testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount@53d102a2]" name="verifyRegisterAccount" class="testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount"/>
-        <method signature="TC010_VerifyingRegisteringAccountByInvalidEmail.verifyRegisterAccountByInvalidEmail()[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@6c45ee6e]" name="verifyRegisterAccountByInvalidEmail" class="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail"/>
-        <method signature="TC011_Register_Invalid_PoneNumber.registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber@6b3e12b5]" name="registerWithInvalidPhoneNumber" class="testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber"/>
-        <method signature="TC012_ReigsterUsingKeyboardKeys.registerUsingKeyboardKeys()[pri:0, instance:testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys@5aac4250]" name="registerUsingKeyboardKeys" class="testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys"/>
-        <method signature="TC013_VerifyRegisterPlaceholder.verifyRegisterPlaceholder()[pri:0, instance:testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder@1338fb5]" name="verifyRegisterPlaceholder" class="testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder"/>
-        <method signature="TC014_CheckifAstreixIsPresentForMandatoryFields.registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@42463763]" name="registerWithInvalidPhoneNumber" class="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields"/>
+        <method signature="TC0002_AccountLogin.accountLogin()[pri:0, instance:testCases.TC0002_AccountLogin@301ec38b]" name="accountLogin" class="testCases.TC0002_AccountLogin"/>
+        <method signature="TC0003_LoginWithExcelDataTest.LoginTestData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" name="LoginTestData" class="testCases.TC0003_LoginWithExcelDataTest"/>
+        <method signature="TC0004_AddToCartTest.AddTocartFromHomePage()[pri:0, instance:testCases.TC0004_AddToCartTest@10ded6a9]" name="AddTocartFromHomePage" class="testCases.TC0004_AddToCartTest"/>
+        <method signature="TC0005_AddMultipleProductsToCartTest.addMultipleToCartFromLaptopsAndNoteBook()[pri:0, instance:testCases.TC0005_AddMultipleProductsToCartTest@c5dc4a2]" name="addMultipleToCartFromLaptopsAndNoteBook" class="testCases.TC0005_AddMultipleProductsToCartTest"/>
+        <method signature="TC0007_PasswordValidation.checkPasswordValidation()[pri:0, instance:testCases.TC0007_PasswordValidation@52066604]" name="checkPasswordValidation" class="testCases.TC0007_PasswordValidation"/>
+        <method signature="TC0008_EmailValidations.emailValidation()[pri:0, instance:testCases.TC0008_EmailValidations@340b9973]" name="emailValidation" class="testCases.TC0008_EmailValidations"/>
+        <method signature="TC0009_ForgotPassword.emailValidation()[pri:0, instance:testCases.TC0009_ForgotPassword@56113384]" name="emailValidation" class="testCases.TC0009_ForgotPassword"/>
+        <method signature="TC0010_SearchFunctionality.isProductAvailableBySearch()[pri:0, instance:testCases.TC0010_SearchFunctionality@5669c5fb]" name="isProductAvailableBySearch" class="testCases.TC0010_SearchFunctionality"/>
+        <method signature="TC0011_MobileViewTestcase.testMobileLayout()[pri:0, instance:testCases.TC0011_MobileViewTestcase@373ebf74]" name="testMobileLayout" class="testCases.TC0011_MobileViewTestcase"/>
+        <method signature="TC0012_AddProducttoWishlist.addProducttoWishList()[pri:0, instance:testCases.TC0012_AddProducttoWishlist@5f9678e1]" name="addProducttoWishList" class="testCases.TC0012_AddProducttoWishlist"/>
+        <method signature="TC0013_CheckCartCount.AddTocartFromHomePage()[pri:0, instance:testCases.TC0013_CheckCartCount@c4ed84]" name="AddTocartFromHomePage" class="testCases.TC0013_CheckCartCount"/>
+        <method signature="TC0014_LoginWithWrongCredentials.accountLogin()[pri:0, instance:testCases.TC0014_LoginWithWrongCredentials@189aa67a]" name="accountLogin" class="testCases.TC0014_LoginWithWrongCredentials"/>
+        <method signature="TC0015_CheckProductCompare.isProductAvailableBySearch()[pri:0, instance:testCases.TC0015_CheckProductCompare@5a9d6f02]" name="isProductAvailableBySearch" class="testCases.TC0015_CheckProductCompare"/>
+        <method signature="TC0016_SubscribeToNewsletter.subscribeToNewsletter()[pri:0, instance:testCases.TC0016_SubscribeToNewsletter@362045c0]" name="subscribeToNewsletter" class="testCases.TC0016_SubscribeToNewsletter"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC004_MandatoryFieldsNotifications.accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@1d730606]" name="accountRegistraion" class="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"/>
-        <method signature="TC005_YesOptionForNewsLetterField.accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@3bcbb589]" name="accountRegistraion" class="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"/>
-        <method signature="TC006_NoOptionForNewsLetterField.accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField@3b00856b]" name="accountRegistraion" class="testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField"/>
-        <method signature="TC0001_AccountRegistrationTest.accountRegistraion()[pri:1, instance:testCases.TC0001_AccountRegistrationTest@31d0e481]" name="accountRegistraion" class="testCases.TC0001_AccountRegistrationTest"/>
+        <method signature="TC004_MandatoryFieldsNotifications.accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@112f364d]" name="accountRegistraion" class="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"/>
+        <method signature="TC005_YesOptionForNewsLetterField.accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@5ccbeb64]" name="accountRegistraion" class="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"/>
+        <method signature="TC0001_AccountRegistrationTest.accountRegistraion()[pri:1, instance:testCases.TC0001_AccountRegistrationTest@28e8dde3]" name="accountRegistraion" class="testCases.TC0001_AccountRegistrationTest"/>
+        <method signature="TC0006_RequiredFieldValidation.accountRegistraion()[pri:1, instance:testCases.TC0006_RequiredFieldValidation@4a194c39]" name="accountRegistraion" class="testCases.TC0006_RequiredFieldValidation"/>
       </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC0002_AccountLogin.accountLogin()[pri:0, instance:testCases.TC0002_AccountLogin@301ec38b]" name="accountLogin" class="testCases.TC0002_AccountLogin"/>
+        <method signature="TC0003_LoginWithExcelDataTest.LoginTestData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" name="LoginTestData" class="testCases.TC0003_LoginWithExcelDataTest"/>
+        <method signature="TC0014_LoginWithWrongCredentials.accountLogin()[pri:0, instance:testCases.TC0014_LoginWithWrongCredentials@189aa67a]" name="accountLogin" class="testCases.TC0014_LoginWithWrongCredentials"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-08-23T16:55:20 IST" name="Test" finished-at="2025-08-23T16:56:24 IST" duration-ms="63574">
-      <class name="testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber@6b3e12b5]" started-at="2025-08-23T16:55:59 IST" name="setup" finished-at="2025-08-23T16:56:02 IST" duration-ms="2296" status="PASS">
+    <test started-at="2025-08-23T17:04:32 IST" name="Test" finished-at="2025-08-23T17:06:15 IST" duration-ms="102545">
+      <class name="testCases.TC0006_RequiredFieldValidation">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0006_RequiredFieldValidation@4a194c39]" started-at="2025-08-23T17:05:08 IST" name="setup" finished-at="2025-08-23T17:05:11 IST" duration-ms="2550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,17 +50,668 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber@6b3e12b5]" started-at="2025-08-23T16:56:02 IST" name="registerWithInvalidPhoneNumber" finished-at="2025-08-23T16:56:03 IST" duration-ms="1625" status="PASS">
+        <test-method signature="accountRegistraion()[pri:1, instance:testCases.TC0006_RequiredFieldValidation@4a194c39]" started-at="2025-08-23T17:05:11 IST" name="accountRegistraion" finished-at="2025-08-23T17:05:12 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegistraion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0006_RequiredFieldValidation@4a194c39]" started-at="2025-08-23T17:05:12 IST" name="teardown" finished-at="2025-08-23T17:05:12 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0006_RequiredFieldValidation -->
+      <class name="testCases.TC0001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0001_AccountRegistrationTest@28e8dde3]" started-at="2025-08-23T17:04:33 IST" name="setup" finished-at="2025-08-23T17:04:37 IST" duration-ms="3908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountRegistraion()[pri:1, instance:testCases.TC0001_AccountRegistrationTest@28e8dde3]" started-at="2025-08-23T17:04:37 IST" name="accountRegistraion" finished-at="2025-08-23T17:04:40 IST" duration-ms="2908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegistraion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0001_AccountRegistrationTest@28e8dde3]" started-at="2025-08-23T17:04:40 IST" name="teardown" finished-at="2025-08-23T17:04:40 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0001_AccountRegistrationTest -->
+      <class name="testCases.TC0002_AccountLogin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0002_AccountLogin@301ec38b]" started-at="2025-08-23T17:04:40 IST" name="setup" finished-at="2025-08-23T17:04:42 IST" duration-ms="2568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountLogin()[pri:0, instance:testCases.TC0002_AccountLogin@301ec38b]" started-at="2025-08-23T17:04:42 IST" name="accountLogin" finished-at="2025-08-23T17:04:44 IST" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0002_AccountLogin@301ec38b]" started-at="2025-08-23T17:04:44 IST" name="teardown" finished-at="2025-08-23T17:04:45 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0002_AccountLogin -->
+      <class name="testCases.TC0011_MobileViewTestcase">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0011_MobileViewTestcase@373ebf74]" started-at="2025-08-23T17:05:33 IST" name="setup" finished-at="2025-08-23T17:05:36 IST" duration-ms="2841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMobileLayout()[pri:0, instance:testCases.TC0011_MobileViewTestcase@373ebf74]" started-at="2025-08-23T17:05:36 IST" name="testMobileLayout" finished-at="2025-08-23T17:05:37 IST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobileLayout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0011_MobileViewTestcase@373ebf74]" started-at="2025-08-23T17:05:37 IST" name="teardown" finished-at="2025-08-23T17:05:38 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0011_MobileViewTestcase -->
+      <class name="testCases.TC0008_EmailValidations">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0008_EmailValidations@340b9973]" started-at="2025-08-23T17:05:17 IST" name="setup" finished-at="2025-08-23T17:05:19 IST" duration-ms="2578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailValidation()[pri:0, instance:testCases.TC0008_EmailValidations@340b9973]" started-at="2025-08-23T17:05:19 IST" name="emailValidation" finished-at="2025-08-23T17:05:21 IST" duration-ms="1640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0008_EmailValidations@340b9973]" started-at="2025-08-23T17:05:21 IST" name="teardown" finished-at="2025-08-23T17:05:21 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0008_EmailValidations -->
+      <class name="testCases.TC0005_AddMultipleProductsToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0005_AddMultipleProductsToCartTest@c5dc4a2]" started-at="2025-08-23T17:04:55 IST" name="setup" finished-at="2025-08-23T17:04:58 IST" duration-ms="2621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addMultipleToCartFromLaptopsAndNoteBook()[pri:0, instance:testCases.TC0005_AddMultipleProductsToCartTest@c5dc4a2]" started-at="2025-08-23T17:04:58 IST" name="addMultipleToCartFromLaptopsAndNoteBook" finished-at="2025-08-23T17:05:08 IST" duration-ms="10007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleToCartFromLaptopsAndNoteBook -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0005_AddMultipleProductsToCartTest@c5dc4a2]" started-at="2025-08-23T17:05:08 IST" name="teardown" finished-at="2025-08-23T17:05:08 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0005_AddMultipleProductsToCartTest -->
+      <class name="testCases.TC0013_CheckCartCount">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0013_CheckCartCount@c4ed84]" started-at="2025-08-23T17:05:43 IST" name="setup" finished-at="2025-08-23T17:05:46 IST" duration-ms="2518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddTocartFromHomePage()[pri:0, instance:testCases.TC0013_CheckCartCount@c4ed84]" started-at="2025-08-23T17:05:46 IST" name="AddTocartFromHomePage" finished-at="2025-08-23T17:05:47 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTocartFromHomePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0013_CheckCartCount@c4ed84]" started-at="2025-08-23T17:05:47 IST" name="teardown" finished-at="2025-08-23T17:05:47 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0013_CheckCartCount -->
+      <class name="testCases.TC0010_SearchFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0010_SearchFunctionality@5669c5fb]" started-at="2025-08-23T17:05:30 IST" name="setup" finished-at="2025-08-23T17:05:33 IST" duration-ms="2572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isProductAvailableBySearch()[pri:0, instance:testCases.TC0010_SearchFunctionality@5669c5fb]" started-at="2025-08-23T17:05:33 IST" name="isProductAvailableBySearch" finished-at="2025-08-23T17:05:33 IST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductAvailableBySearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0010_SearchFunctionality@5669c5fb]" started-at="2025-08-23T17:05:33 IST" name="teardown" finished-at="2025-08-23T17:05:33 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0010_SearchFunctionality -->
+      <class name="testCases.TC0015_CheckProductCompare">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0015_CheckProductCompare@5a9d6f02]" started-at="2025-08-23T17:05:51 IST" name="setup" finished-at="2025-08-23T17:05:54 IST" duration-ms="2642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isProductAvailableBySearch()[pri:0, instance:testCases.TC0015_CheckProductCompare@5a9d6f02]" started-at="2025-08-23T17:05:54 IST" name="isProductAvailableBySearch" finished-at="2025-08-23T17:05:59 IST" duration-ms="4987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductAvailableBySearch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0015_CheckProductCompare@5a9d6f02]" started-at="2025-08-23T17:05:59 IST" name="teardown" finished-at="2025-08-23T17:05:59 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0015_CheckProductCompare -->
+      <class name="testCases.TC0012_AddProducttoWishlist">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0012_AddProducttoWishlist@5f9678e1]" started-at="2025-08-23T17:05:38 IST" name="setup" finished-at="2025-08-23T17:05:40 IST" duration-ms="2536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProducttoWishList()[pri:0, instance:testCases.TC0012_AddProducttoWishlist@5f9678e1]" started-at="2025-08-23T17:05:40 IST" name="addProducttoWishList" finished-at="2025-08-23T17:05:43 IST" duration-ms="2925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProducttoWishList -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0012_AddProducttoWishlist@5f9678e1]" started-at="2025-08-23T17:05:43 IST" name="teardown" finished-at="2025-08-23T17:05:43 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0012_AddProducttoWishlist -->
+      <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@112f364d]" started-at="2025-08-23T17:06:05 IST" name="setup" finished-at="2025-08-23T17:06:07 IST" duration-ms="2554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@112f364d]" started-at="2025-08-23T17:06:07 IST" name="accountRegistraion" finished-at="2025-08-23T17:06:09 IST" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegistraion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@112f364d]" started-at="2025-08-23T17:06:09 IST" name="teardown" finished-at="2025-08-23T17:06:09 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -->
+      <class name="testCases.TC0014_LoginWithWrongCredentials">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0014_LoginWithWrongCredentials@189aa67a]" started-at="2025-08-23T17:05:47 IST" name="setup" finished-at="2025-08-23T17:05:50 IST" duration-ms="2528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountLogin()[pri:0, instance:testCases.TC0014_LoginWithWrongCredentials@189aa67a]" started-at="2025-08-23T17:05:50 IST" name="accountLogin" finished-at="2025-08-23T17:05:51 IST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0014_LoginWithWrongCredentials@189aa67a]" started-at="2025-08-23T17:05:51 IST" name="teardown" finished-at="2025-08-23T17:05:51 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0014_LoginWithWrongCredentials -->
+      <class name="testCases.TC0009_ForgotPassword">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0009_ForgotPassword@56113384]" started-at="2025-08-23T17:05:21 IST" name="setup" finished-at="2025-08-23T17:05:24 IST" duration-ms="2458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emailValidation()[pri:0, instance:testCases.TC0009_ForgotPassword@56113384]" started-at="2025-08-23T17:05:24 IST" name="emailValidation" finished-at="2025-08-23T17:05:30 IST" duration-ms="6044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0009_ForgotPassword@56113384]" started-at="2025-08-23T17:05:30 IST" name="teardown" finished-at="2025-08-23T17:05:30 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0009_ForgotPassword -->
+      <class name="testCases.TC0004_AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0004_AddToCartTest@10ded6a9]" started-at="2025-08-23T17:04:51 IST" name="setup" finished-at="2025-08-23T17:04:54 IST" duration-ms="2626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddTocartFromHomePage()[pri:0, instance:testCases.TC0004_AddToCartTest@10ded6a9]" started-at="2025-08-23T17:04:54 IST" name="AddTocartFromHomePage" finished-at="2025-08-23T17:04:55 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTocartFromHomePage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0004_AddToCartTest@10ded6a9]" started-at="2025-08-23T17:04:55 IST" name="teardown" finished-at="2025-08-23T17:04:55 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0004_AddToCartTest -->
+      <class name="testCases.TC0016_SubscribeToNewsletter">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0016_SubscribeToNewsletter@362045c0]" started-at="2025-08-23T17:05:59 IST" name="setup" finished-at="2025-08-23T17:06:02 IST" duration-ms="2474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="subscribeToNewsletter()[pri:0, instance:testCases.TC0016_SubscribeToNewsletter@362045c0]" started-at="2025-08-23T17:06:02 IST" name="subscribeToNewsletter" finished-at="2025-08-23T17:06:05 IST" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeToNewsletter -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0016_SubscribeToNewsletter@362045c0]" started-at="2025-08-23T17:06:05 IST" name="teardown" finished-at="2025-08-23T17:06:05 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0016_SubscribeToNewsletter -->
+      <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@5ccbeb64]" started-at="2025-08-23T17:06:09 IST" name="setup" finished-at="2025-08-23T17:06:12 IST" duration-ms="2526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@5ccbeb64]" started-at="2025-08-23T17:06:12 IST" name="accountRegistraion" finished-at="2025-08-23T17:06:15 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountRegistraion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@5ccbeb64]" started-at="2025-08-23T17:06:15 IST" name="teardown" finished-at="2025-08-23T17:06:15 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -->
+      <class name="testCases.TC0003_LoginWithExcelDataTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" started-at="2025-08-23T17:04:45 IST" name="setup" finished-at="2025-08-23T17:04:47 IST" duration-ms="2538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" started-at="2025-08-23T17:04:48 IST" name="LoginTestData" data-provider="LoginData" finished-at="2025-08-23T17:04:51 IST" duration-ms="2856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashitosh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" started-at="2025-08-23T17:04:51 IST" name="teardown" finished-at="2025-08-23T17:04:51 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" started-at="2025-08-23T17:04:51 IST" name="LoginTestData" data-provider="LoginData" finished-at="2025-08-23T17:04:51 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashitosh1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at pageObject.Homepage.myAccount(Homepage.java:41)
+at testCases.TC0003_LoginWithExcelDataTest.LoginTestData(TC0003_LoginWithExcelDataTest.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" started-at="2025-08-23T17:04:51 IST" name="teardown" finished-at="2025-08-23T17:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="LoginTestData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" started-at="2025-08-23T17:04:51 IST" name="LoginTestData" data-provider="LoginData" finished-at="2025-08-23T17:04:51 IST" duration-ms="7" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashitosh3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at pageObject.Homepage.myAccount(Homepage.java:41)
+at testCases.TC0003_LoginWithExcelDataTest.LoginTestData(TC0003_LoginWithExcelDataTest.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0003_LoginWithExcelDataTest@17a1e4ca]" started-at="2025-08-23T17:04:51 IST" name="teardown" finished-at="2025-08-23T17:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0003_LoginWithExcelDataTest -->
+      <class name="testCases.TC0007_PasswordValidation">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0007_PasswordValidation@52066604]" started-at="2025-08-23T17:05:12 IST" name="setup" finished-at="2025-08-23T17:05:15 IST" duration-ms="2786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkPasswordValidation()[pri:0, instance:testCases.TC0007_PasswordValidation@52066604]" started-at="2025-08-23T17:05:15 IST" name="checkPasswordValidation" finished-at="2025-08-23T17:05:17 IST" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPasswordValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0007_PasswordValidation@52066604]" started-at="2025-08-23T17:05:17 IST" name="teardown" finished-at="2025-08-23T17:05:17 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0007_PasswordValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite (0) -->
+  <suite started-at="2025-08-23T17:07:24 IST" name="Master Suite" finished-at="2025-08-23T17:07:24 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Master Suite -->
+  <suite started-at="2025-08-23T17:06:17 IST" name="Master Suite (1)" finished-at="2025-08-23T17:07:24 IST" duration-ms="66570">
+    <groups>
+      <group name="Master">
+        <method signature="TC007_NavigateToRegisterAccountPage.differentWaysToRegisterPage()[pri:0, instance:testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage@ebb6851]" name="differentWaysToRegisterPage" class="testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage"/>
+        <method signature="TC008_WrongConfirmPasswordValidation.checkForWrongPasswordMsgValidation()[pri:0, instance:testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation@70ab2d48]" name="checkForWrongPasswordMsgValidation" class="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation"/>
+        <method signature="TC009_VerifyRegisterAccountByExistingAccount.verifyRegisterAccount()[pri:0, instance:testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount@5b068087]" name="verifyRegisterAccount" class="testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount"/>
+        <method signature="TC010_VerifyingRegisteringAccountByInvalidEmail.verifyRegisterAccountByInvalidEmail()[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@6f152006]" name="verifyRegisterAccountByInvalidEmail" class="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail"/>
+        <method signature="TC011_Register_Invalid_PoneNumber.registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber@3a393455]" name="registerWithInvalidPhoneNumber" class="testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber"/>
+        <method signature="TC012_ReigsterUsingKeyboardKeys.registerUsingKeyboardKeys()[pri:0, instance:testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys@13518f37]" name="registerUsingKeyboardKeys" class="testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys"/>
+        <method signature="TC013_VerifyRegisterPlaceholder.verifyRegisterPlaceholder()[pri:0, instance:testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder@7cbc3762]" name="verifyRegisterPlaceholder" class="testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder"/>
+        <method signature="TC014_CheckifAstreixIsPresentForMandatoryFields.registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@3a6f2de3]" name="registerWithInvalidPhoneNumber" class="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC004_MandatoryFieldsNotifications.accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@12bd8a64]" name="accountRegistraion" class="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"/>
+        <method signature="TC005_YesOptionForNewsLetterField.accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@61e94def]" name="accountRegistraion" class="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"/>
+        <method signature="TC006_NoOptionForNewsLetterField.accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField@3300f4fd]" name="accountRegistraion" class="testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField"/>
+        <method signature="TC0001_AccountRegistrationTest.accountRegistraion()[pri:1, instance:testCases.TC0001_AccountRegistrationTest@19648c40]" name="accountRegistraion" class="testCases.TC0001_AccountRegistrationTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2025-08-23T17:06:17 IST" name="Test" finished-at="2025-08-23T17:07:24 IST" duration-ms="66570">
+      <class name="testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber@3a393455]" started-at="2025-08-23T17:06:58 IST" name="setup" finished-at="2025-08-23T17:07:01 IST" duration-ms="2518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber@3a393455]" started-at="2025-08-23T17:07:01 IST" name="registerWithInvalidPhoneNumber" finished-at="2025-08-23T17:07:02 IST" duration-ms="1393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithInvalidPhoneNumber -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber@6b3e12b5]" started-at="2025-08-23T16:56:03 IST" name="teardown" finished-at="2025-08-23T16:56:04 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber@3a393455]" started-at="2025-08-23T17:07:02 IST" name="teardown" finished-at="2025-08-23T17:07:02 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber -->
       <class name="testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField@3b00856b]" started-at="2025-08-23T16:55:36 IST" name="setup" finished-at="2025-08-23T16:55:38 IST" duration-ms="2195" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField@3300f4fd]" started-at="2025-08-23T17:06:33 IST" name="setup" finished-at="2025-08-23T17:06:35 IST" duration-ms="2462" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,17 +727,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField@3b00856b]" started-at="2025-08-23T16:55:38 IST" name="accountRegistraion" finished-at="2025-08-23T16:55:41 IST" duration-ms="3207" status="PASS">
+        <test-method signature="accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField@3300f4fd]" started-at="2025-08-23T17:06:35 IST" name="accountRegistraion" finished-at="2025-08-23T17:06:38 IST" duration-ms="3305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountRegistraion -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField@3b00856b]" started-at="2025-08-23T16:55:41 IST" name="teardown" finished-at="2025-08-23T16:55:41 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField@3300f4fd]" started-at="2025-08-23T17:06:38 IST" name="teardown" finished-at="2025-08-23T17:06:39 IST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -->
       <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@1d730606]" started-at="2025-08-23T16:55:26 IST" name="setup" finished-at="2025-08-23T16:55:29 IST" duration-ms="2260" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@12bd8a64]" started-at="2025-08-23T17:06:22 IST" name="setup" finished-at="2025-08-23T17:06:25 IST" duration-ms="2465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,17 +753,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@1d730606]" started-at="2025-08-23T16:55:29 IST" name="accountRegistraion" finished-at="2025-08-23T16:55:30 IST" duration-ms="1365" status="PASS">
+        <test-method signature="accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@12bd8a64]" started-at="2025-08-23T17:06:25 IST" name="accountRegistraion" finished-at="2025-08-23T17:06:26 IST" duration-ms="1614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountRegistraion -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@1d730606]" started-at="2025-08-23T16:55:30 IST" name="teardown" finished-at="2025-08-23T16:55:30 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications@12bd8a64]" started-at="2025-08-23T17:06:26 IST" name="teardown" finished-at="2025-08-23T17:06:27 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -->
       <class name="testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage@3016fd5e]" started-at="2025-08-23T16:55:41 IST" name="setup" finished-at="2025-08-23T16:55:44 IST" duration-ms="2346" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage@ebb6851]" started-at="2025-08-23T17:06:39 IST" name="setup" finished-at="2025-08-23T17:06:41 IST" duration-ms="2578" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,17 +779,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="differentWaysToRegisterPage()[pri:0, instance:testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage@3016fd5e]" started-at="2025-08-23T16:55:44 IST" name="differentWaysToRegisterPage" finished-at="2025-08-23T16:55:45 IST" duration-ms="1862" status="PASS">
+        <test-method signature="differentWaysToRegisterPage()[pri:0, instance:testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage@ebb6851]" started-at="2025-08-23T17:06:41 IST" name="differentWaysToRegisterPage" finished-at="2025-08-23T17:06:43 IST" duration-ms="2158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- differentWaysToRegisterPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage@3016fd5e]" started-at="2025-08-23T16:55:45 IST" name="teardown" finished-at="2025-08-23T16:55:46 IST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage@ebb6851]" started-at="2025-08-23T17:06:43 IST" name="teardown" finished-at="2025-08-23T17:06:43 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -->
       <class name="testCases.TC0001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0001_AccountRegistrationTest@31d0e481]" started-at="2025-08-23T16:55:20 IST" name="setup" finished-at="2025-08-23T16:55:24 IST" duration-ms="3171" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0001_AccountRegistrationTest@19648c40]" started-at="2025-08-23T17:06:17 IST" name="setup" finished-at="2025-08-23T17:06:19 IST" duration-ms="2380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,17 +805,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="accountRegistraion()[pri:1, instance:testCases.TC0001_AccountRegistrationTest@31d0e481]" started-at="2025-08-23T16:55:24 IST" name="accountRegistraion" finished-at="2025-08-23T16:55:26 IST" duration-ms="2637" status="PASS">
+        <test-method signature="accountRegistraion()[pri:1, instance:testCases.TC0001_AccountRegistrationTest@19648c40]" started-at="2025-08-23T17:06:19 IST" name="accountRegistraion" finished-at="2025-08-23T17:06:22 IST" duration-ms="2713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountRegistraion -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0001_AccountRegistrationTest@31d0e481]" started-at="2025-08-23T16:55:26 IST" name="teardown" finished-at="2025-08-23T16:55:26 IST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0001_AccountRegistrationTest@19648c40]" started-at="2025-08-23T17:06:22 IST" name="teardown" finished-at="2025-08-23T17:06:22 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC0001_AccountRegistrationTest -->
       <class name="testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@6c45ee6e]" started-at="2025-08-23T16:55:54 IST" name="setup" finished-at="2025-08-23T16:55:57 IST" duration-ms="2414" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@6f152006]" started-at="2025-08-23T17:06:53 IST" name="setup" finished-at="2025-08-23T17:06:56 IST" duration-ms="3074" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,17 +831,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterAccountByInvalidEmail()[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@6c45ee6e]" started-at="2025-08-23T16:55:57 IST" name="verifyRegisterAccountByInvalidEmail" finished-at="2025-08-23T16:55:59 IST" duration-ms="2375" status="PASS">
+        <test-method signature="verifyRegisterAccountByInvalidEmail()[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@6f152006]" started-at="2025-08-23T17:06:56 IST" name="verifyRegisterAccountByInvalidEmail" finished-at="2025-08-23T17:06:58 IST" duration-ms="1969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountByInvalidEmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@6c45ee6e]" started-at="2025-08-23T16:55:59 IST" name="teardown" finished-at="2025-08-23T16:55:59 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail@6f152006]" started-at="2025-08-23T17:06:58 IST" name="teardown" finished-at="2025-08-23T17:06:58 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail -->
       <class name="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@42463763]" started-at="2025-08-23T16:56:21 IST" name="setup" finished-at="2025-08-23T16:56:23 IST" duration-ms="2388" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@3a6f2de3]" started-at="2025-08-23T17:07:20 IST" name="setup" finished-at="2025-08-23T17:07:23 IST" duration-ms="2567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,17 +857,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@42463763]" started-at="2025-08-23T16:56:23 IST" name="registerWithInvalidPhoneNumber" finished-at="2025-08-23T16:56:24 IST" duration-ms="873" status="PASS">
+        <test-method signature="registerWithInvalidPhoneNumber()[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@3a6f2de3]" started-at="2025-08-23T17:07:23 IST" name="registerWithInvalidPhoneNumber" finished-at="2025-08-23T17:07:23 IST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithInvalidPhoneNumber -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@42463763]" started-at="2025-08-23T16:56:24 IST" name="teardown" finished-at="2025-08-23T16:56:24 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields@3a6f2de3]" started-at="2025-08-23T17:07:23 IST" name="teardown" finished-at="2025-08-23T17:07:24 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields -->
       <class name="testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder@1338fb5]" started-at="2025-08-23T16:56:17 IST" name="setup" finished-at="2025-08-23T16:56:19 IST" duration-ms="2203" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder@7cbc3762]" started-at="2025-08-23T17:07:16 IST" name="setup" finished-at="2025-08-23T17:07:19 IST" duration-ms="2817" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,17 +883,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterPlaceholder()[pri:0, instance:testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder@1338fb5]" started-at="2025-08-23T16:56:19 IST" name="verifyRegisterPlaceholder" finished-at="2025-08-23T16:56:20 IST" duration-ms="860" status="PASS">
+        <test-method signature="verifyRegisterPlaceholder()[pri:0, instance:testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder@7cbc3762]" started-at="2025-08-23T17:07:19 IST" name="verifyRegisterPlaceholder" finished-at="2025-08-23T17:07:20 IST" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterPlaceholder -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder@1338fb5]" started-at="2025-08-23T16:56:20 IST" name="teardown" finished-at="2025-08-23T16:56:21 IST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder@7cbc3762]" started-at="2025-08-23T17:07:20 IST" name="teardown" finished-at="2025-08-23T17:07:20 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder -->
       <class name="testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys@5aac4250]" started-at="2025-08-23T16:56:04 IST" name="setup" finished-at="2025-08-23T16:56:06 IST" duration-ms="2191" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys@13518f37]" started-at="2025-08-23T17:07:02 IST" name="setup" finished-at="2025-08-23T17:07:05 IST" duration-ms="2458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,17 +909,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registerUsingKeyboardKeys()[pri:0, instance:testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys@5aac4250]" started-at="2025-08-23T16:56:06 IST" name="registerUsingKeyboardKeys" finished-at="2025-08-23T16:56:17 IST" duration-ms="11376" status="PASS">
+        <test-method signature="registerUsingKeyboardKeys()[pri:0, instance:testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys@13518f37]" started-at="2025-08-23T17:07:05 IST" name="registerUsingKeyboardKeys" finished-at="2025-08-23T17:07:16 IST" duration-ms="11382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUsingKeyboardKeys -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys@5aac4250]" started-at="2025-08-23T16:56:17 IST" name="teardown" finished-at="2025-08-23T16:56:17 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys@13518f37]" started-at="2025-08-23T17:07:16 IST" name="teardown" finished-at="2025-08-23T17:07:16 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys -->
       <class name="testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation@35d08e6c]" started-at="2025-08-23T16:55:46 IST" name="setup" finished-at="2025-08-23T16:55:48 IST" duration-ms="2397" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation@70ab2d48]" started-at="2025-08-23T17:06:43 IST" name="setup" finished-at="2025-08-23T17:06:46 IST" duration-ms="2920" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,17 +935,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkForWrongPasswordMsgValidation()[pri:0, instance:testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation@35d08e6c]" started-at="2025-08-23T16:55:48 IST" name="checkForWrongPasswordMsgValidation" finished-at="2025-08-23T16:55:50 IST" duration-ms="1900" status="PASS">
+        <test-method signature="checkForWrongPasswordMsgValidation()[pri:0, instance:testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation@70ab2d48]" started-at="2025-08-23T17:06:46 IST" name="checkForWrongPasswordMsgValidation" finished-at="2025-08-23T17:06:48 IST" duration-ms="1887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForWrongPasswordMsgValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation@35d08e6c]" started-at="2025-08-23T16:55:50 IST" name="teardown" finished-at="2025-08-23T16:55:50 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation@70ab2d48]" started-at="2025-08-23T17:06:48 IST" name="teardown" finished-at="2025-08-23T17:06:48 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation -->
       <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@3bcbb589]" started-at="2025-08-23T16:55:30 IST" name="setup" finished-at="2025-08-23T16:55:32 IST" duration-ms="2234" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@61e94def]" started-at="2025-08-23T17:06:27 IST" name="setup" finished-at="2025-08-23T17:06:29 IST" duration-ms="2598" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,17 +961,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@3bcbb589]" started-at="2025-08-23T16:55:32 IST" name="accountRegistraion" finished-at="2025-08-23T16:55:36 IST" duration-ms="3088" status="PASS">
+        <test-method signature="accountRegistraion()[pri:1, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@61e94def]" started-at="2025-08-23T17:06:29 IST" name="accountRegistraion" finished-at="2025-08-23T17:06:32 IST" duration-ms="3321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountRegistraion -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@3bcbb589]" started-at="2025-08-23T16:55:36 IST" name="teardown" finished-at="2025-08-23T16:55:36 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField@61e94def]" started-at="2025-08-23T17:06:32 IST" name="teardown" finished-at="2025-08-23T17:06:33 IST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -->
       <class name="testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount@53d102a2]" started-at="2025-08-23T16:55:50 IST" name="setup" finished-at="2025-08-23T16:55:52 IST" duration-ms="2166" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount@5b068087]" started-at="2025-08-23T17:06:48 IST" name="setup" finished-at="2025-08-23T17:06:51 IST" duration-ms="2522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -335,11 +987,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegisterAccount()[pri:0, instance:testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount@53d102a2]" started-at="2025-08-23T16:55:52 IST" name="verifyRegisterAccount" finished-at="2025-08-23T16:55:54 IST" duration-ms="2049" status="PASS">
+        <test-method signature="verifyRegisterAccount()[pri:0, instance:testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount@5b068087]" started-at="2025-08-23T17:06:51 IST" name="verifyRegisterAccount" finished-at="2025-08-23T17:06:53 IST" duration-ms="1818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccount -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount@53d102a2]" started-at="2025-08-23T16:55:54 IST" name="teardown" finished-at="2025-08-23T16:55:54 IST" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount@5b068087]" started-at="2025-08-23T17:06:53 IST" name="teardown" finished-at="2025-08-23T17:06:53 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

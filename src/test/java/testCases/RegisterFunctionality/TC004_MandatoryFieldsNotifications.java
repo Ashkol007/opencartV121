@@ -27,18 +27,28 @@ public class TC004_MandatoryFieldsNotifications extends BaseClass {
 	    Arp.clickContinue();
 	    logger.info("After click continue");
 	    
+	    String FirstNameWarning = "First Name must be between 1 and 32 characters!";
+	    String LastNameWarning = "Last Name must be between 1 and 32 characters!";
+	    String EmailWarning = "E-Mail Address does not appear to be valid!";
+	    String TelephoneWarning = "Telephone must be between 3 and 32 characters!";
+	    String PasswordWarning = "Password must be between 4 and 20 characters!";
+	    		
+	    		
+	    
+	    		
+	   
 	    
         
-        Assert.assertEquals(Arp.firstNameValidation(), true);
+        Assert.assertEquals(Arp.firstNameValidation(), FirstNameWarning);
 
-        Assert.assertEquals(Arp.larstNameValidation(), true);
+        Assert.assertEquals(Arp.larstNameValidation(), LastNameWarning);
 
-        Assert.assertEquals(Arp.emailValidation(), true);
+        Assert.assertEquals(Arp.emailValidation(), EmailWarning);
 
-        Assert.assertEquals(Arp.paswordValidation(), true);
+        Assert.assertEquals(Arp.paswordValidation(), PasswordWarning);
         
 
-        Assert.assertEquals(Arp.telephoneValidation(), true);
+        Assert.assertEquals(Arp.telephoneValidation(), TelephoneWarning);
         
 	    
 	    logger.info(" ************** MandatoryFieldsNotifications TestCase ended *********** ");

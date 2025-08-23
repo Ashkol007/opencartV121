@@ -15,12 +15,18 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields">
+      <class name="testCases.RegisterFunctionality.TC015_EnterSpaceInMandatoryFields">
         <methods>
           <include name="setup"/>
-          <include name="registerWithInvalidPhoneNumber"/>
+          <include name="enterSpaceMandatoryValidationMeassage"/>
         </methods>
-      </class> <!-- testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields -->
+      </class> <!-- testCases.RegisterFunctionality.TC015_EnterSpaceInMandatoryFields -->
+      <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications">
+        <methods>
+          <include name="setup"/>
+          <include name="accountRegistraion"/>
+        </methods>
+      </class> <!-- testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
