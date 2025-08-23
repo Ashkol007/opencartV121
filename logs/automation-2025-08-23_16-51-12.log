@@ -1,0 +1,27 @@
+16:51:15.519 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase started ***********
+16:51:18.173 [main] INFO  testCases.TC0001_AccountRegistrationTest -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
+16:51:20.809 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** TC_RF004_MandatoryFieldsNotifications TestCase started ***********
+16:51:21.635 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - Before click continue
+16:51:22.202 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications - After click continue
+16:51:22.341 [main] INFO  testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -  ************** MandatoryFieldsNotifications TestCase ended *********** 
+16:51:24.891 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase started ***********
+16:51:28.266 [main] INFO  testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField -  ************** TC0001_AccountRegistrationTest TestCase ended *********** 
+16:51:30.733 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase started ***********
+16:51:33.936 [main] INFO  testCases.RegisterFunctionality.TC006_NoOptionForNewsLetterField -  ************** TC06_ No option selected For NewsLetter Field TestCase ended *********** 
+16:51:36.443 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase started 
+16:51:38.458 [main] INFO  testCases.RegisterFunctionality.TC007_NavigateToRegisterAccountPage -  TC007_NavigateToRegisterAccountPage Tescase ended 
+16:51:40.954 [main] INFO  testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation -  TC008_WrongConfirmPasswordValidation testcase stated
+16:51:42.987 [main] INFO  testCases.RegisterFunctionality.TC008_WrongConfirmPasswordValidation - TC008_WrongConfirmPasswordValidation testcase passed
+16:51:45.401 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - TC009_VerifyRegisterAccountByExistingAccount testcase started
+16:51:47.384 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - Warning message: Warning: E-Mail Address is already registered!
+16:51:47.424 [main] INFO  testCases.RegisterFunctionality.TC009_VerifyRegisterAccountByExistingAccount - TC009_VerifyRegisterAccountByExistingAccount testcase passed
+16:51:50.130 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase started
+16:51:52.616 [main] INFO  testCases.RegisterFunctionality.TC010_VerifyingRegisteringAccountByInvalidEmail - VerifyingRegisteringAccountByInvalidEmail testcase ended
+16:51:55.324 [main] INFO  testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber - TC011_Register_Invalid_PoneNumber TestCase started
+16:51:57.305 [main] INFO  testCases.RegisterFunctionality.TC011_Register_Invalid_PoneNumber - TC011_Register_Invalid_PoneNumber TestCase passed
+16:51:59.779 [main] INFO  testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys - TC012_ReigsterUsingKeyboardKeys TestCase started
+16:52:11.100 [main] INFO  testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys - TC012_ReigsterUsingKeyboardKeys TestCase passed
+16:52:13.573 [main] INFO  testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder - TC013_VerifyRegisterPlaceholder TestCase started
+16:52:14.541 [main] INFO  testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder - TC013_VerifyRegisterPlaceholder TestCase passed
+16:52:16.983 [main] INFO  testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields - TC014_CheckifAstreixIsPresentForMandatoryFields TestCase started
+16:52:17.992 [main] INFO  testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields - TC014_CheckifAstreixIsPresentForMandatoryFields TestCase passed
