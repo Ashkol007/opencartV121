@@ -4,7 +4,7 @@
     </listeners>
 
     <suite-files>
+        <suite-file path="testng.xml"/>
         <suite-file path="testng-register.xml"/>
-        <suite-file path="testng-logout.xml"/>
     </suite-files>
 </suite>
