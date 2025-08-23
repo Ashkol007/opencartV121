@@ -18,6 +18,10 @@ D:\Ecllipse\opencartV121\src\test\java\testCases\RegisterFunctionality\TC007_Nav
 D:\Ecllipse\opencartV121\src\test\java\testCases\RegisterFunctionality\TC008_WrongConfirmPasswordValidation.java
 D:\Ecllipse\opencartV121\src\test\java\testCases\RegisterFunctionality\TC009_VerifyRegisterAccountByExistingAccount.java
 D:\Ecllipse\opencartV121\src\test\java\testCases\RegisterFunctionality\TC010_VerifyingRegisteringAccountByInvalidEmail.java
+D:\Ecllipse\opencartV121\src\test\java\testCases\RegisterFunctionality\TC011_Register_Invalid_PoneNumber.java
+D:\Ecllipse\opencartV121\src\test\java\testCases\RegisterFunctionality\TC012_ReigsterUsingKeyboardKeys.java
+D:\Ecllipse\opencartV121\src\test\java\testCases\RegisterFunctionality\TC013_VerifyRegisterPlaceholder.java
+D:\Ecllipse\opencartV121\src\test\java\testCases\RegisterFunctionality\TC014_CheckifAstreixIsPresentForMandatoryFields.java
 D:\Ecllipse\opencartV121\src\test\java\testCases\TC0001_AccountRegistrationTest.java
 D:\Ecllipse\opencartV121\src\test\java\testCases\TC0002_AccountLogin.java
 D:\Ecllipse\opencartV121\src\test\java\testCases\TC0003_LoginWithExcelDataTest.java
