@@ -99,6 +99,10 @@ public class AccountRegistrationPage extends Basepage {
 		
     }
 	
+	public void clearFirstName() {
+		InpFirstName.clear();
+	}
+	
 	public void setLastName(String lastname) {
 		InpLastName.sendKeys(lastname);
 		
@@ -179,6 +183,10 @@ public class AccountRegistrationPage extends Basepage {
 	
 	public String firstNameValidation() {
 		 return firstNameWarningMsg.getText();
+	}
+	
+	public Boolean firstNameWarningDisplayed() {
+		return firstNameWarningMsg.isDisplayed();
 	}
 	
 	public String larstNameValidation() {
@@ -350,6 +358,31 @@ public class AccountRegistrationPage extends Basepage {
 		 
 		 return beforeAstreix;
 	 }
+	 
+	 
+	 public String[] getHeightOfElement(WebElement element) {
+		 
+		 String height = element.getCssValue("height");
+		 
+		 JavascriptExecutor Js = (JavascriptExecutor) driver;
+		 
+		 
+		 String width = (String) Js.executeScript("return window.getComputedStyle(arguments[0], null).getPropertyValue('width');", element);
+		 
+		return new String[] {height,width};
+		 
+	}
+	 
+	
+	 
+	 public String[] getHAndWforFirstName() {
+		 
+		   return getHeightOfElement(InpFirstName);
+		 
+	 }
+	 
+	 
+	 
 
 
 	

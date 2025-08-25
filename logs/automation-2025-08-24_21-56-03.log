@@ -1,0 +1,3 @@
+21:56:07.044 [main] INFO  testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate - TC018_RegisterFields_Height_Width_Characters_Validate TestCase started
+21:56:07.993 [main] DEBUG testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate - Cannot invoke "String.toString()" because "heightWidthsize[1]" is null
+21:56:07.993 [main] ERROR testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate - Password Complexity Standard is not set!

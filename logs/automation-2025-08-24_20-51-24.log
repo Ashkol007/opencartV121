@@ -1,0 +1,8 @@
+20:51:28.373 [main] INFO  testCases.RegisterFunctionality.TC016_PasswordComplexityStandard - TC016_PasswordComplexityStandard TestCase started
+20:51:30.512 [main] INFO  testCases.RegisterFunctionality.TC016_PasswordComplexityStandard - TC016_PasswordComplexityStandard TestCase passed1234
+20:51:30.551 [main] INFO  testCases.RegisterFunctionality.TC016_PasswordComplexityStandard - TC016_PasswordComplexityStandard TestCase started
+20:51:31.769 [main] INFO  testCases.RegisterFunctionality.TC016_PasswordComplexityStandard - TC016_PasswordComplexityStandard TestCase passedabcde
+20:51:31.776 [main] INFO  testCases.RegisterFunctionality.TC016_PasswordComplexityStandard - TC016_PasswordComplexityStandard TestCase started
+20:51:33.283 [main] INFO  testCases.RegisterFunctionality.TC016_PasswordComplexityStandard - TC016_PasswordComplexityStandard TestCase passed123abcd
+20:51:33.289 [main] INFO  testCases.RegisterFunctionality.TC016_PasswordComplexityStandard - TC016_PasswordComplexityStandard TestCase started
+20:51:34.703 [main] INFO  testCases.RegisterFunctionality.TC016_PasswordComplexityStandard - TC016_PasswordComplexityStandard TestCase passed!@#$%%

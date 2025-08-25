@@ -22,7 +22,7 @@
  <parameter name="browser" value="chrome"></parameter>
  
  <classes>
-   
+   <!-- 
       <class name="testCases.TC0001_AccountRegistrationTest"/> 
       <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"></class> 
       <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>   
@@ -35,7 +35,9 @@
       <class name="testCases.RegisterFunctionality.TC012_ReigsterUsingKeyboardKeys"></class>
       <class name="testCases.RegisterFunctionality.TC013_VerifyRegisterPlaceholder"></class>
       <class name="testCases.RegisterFunctionality.TC014_CheckifAstreixIsPresentForMandatoryFields"></class>
-      <class name="testCases.RegisterFunctionality.TC015_EnterSpaceInMandatoryFields"></class>
+      <class name="testCases.RegisterFunctionality.TC015_EnterSpaceInMandatoryFields"></class> 
+      <class name="testCases.RegisterFunctionality.TC016_PasswordComplexityStandard"></class>-->
+      <class name="testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate"></class>
       
 
     </classes>

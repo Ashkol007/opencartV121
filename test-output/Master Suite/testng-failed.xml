@@ -15,18 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.RegisterFunctionality.TC015_EnterSpaceInMandatoryFields">
+      <class name="testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate">
         <methods>
           <include name="setup"/>
-          <include name="enterSpaceMandatoryValidationMeassage"/>
+          <include name="registerFieldsHeightAndWidth"/>
         </methods>
-      </class> <!-- testCases.RegisterFunctionality.TC015_EnterSpaceInMandatoryFields -->
-      <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications">
-        <methods>
-          <include name="setup"/>
-          <include name="accountRegistraion"/>
-        </methods>
-      </class> <!-- testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications -->
+      </class> <!-- testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
