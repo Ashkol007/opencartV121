@@ -10,6 +10,10 @@ public class HelperFunctions {
 		return Str_Gen.generate(num);
 	}
 	
+	public String emailGenerator(int num) {
+		return Str_Gen.generate(num)+"@gmail.com";
+	}
+	
 	public String numGenerator(int length) {
 		StringBuilder number = new StringBuilder();
 		for(int i=0;i<length;i++) {

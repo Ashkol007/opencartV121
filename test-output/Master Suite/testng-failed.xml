@@ -15,12 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate">
+      <class name="testCases.RegisterFunctionality.TC020_VerifyPrivacyPolicyisSelected">
         <methods>
           <include name="setup"/>
-          <include name="registerFieldsHeightAndWidth"/>
+          <include name="accountRegistraion"/>
         </methods>
-      </class> <!-- testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate -->
+      </class> <!-- testCases.RegisterFunctionality.TC020_VerifyPrivacyPolicyisSelected -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

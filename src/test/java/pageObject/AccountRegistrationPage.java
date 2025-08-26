@@ -46,7 +46,7 @@ public class AccountRegistrationPage extends Basepage {
     
     @FindBy(xpath="//label[normalize-space()='Yes']") WebElement RadYes;
 	@FindBy(xpath="//label[normalize-space()='No']")  WebElement RadNo;
-    @FindBy(xpath="//input[@name='agree']") WebElement CheAgree;
+    @FindBy(xpath="//input[@name='agree']") WebElement CheckBoxAgree;
 	@FindBy(xpath="//input[@value='Continue']") WebElement BtnContinue;
 	
 	@FindBy(xpath="//div[@class='text-danger' and contains(text(),'First Name')]") WebElement RequiredFieldFirstName;
@@ -67,6 +67,8 @@ public class AccountRegistrationPage extends Basepage {
     @FindBy(xpath = "//div[contains(text(),'Password must be between 4 and 20 characters!')]")
     private WebElement passwordWarningMsg;
 
+    @FindBy(xpath="//div[@class='alert alert-danger alert-dismissible' and text()='Warning: You must agree to the Privacy Policy!']")
+    private WebElement privacyPolicyWarningMsg;
 
     
 
@@ -129,7 +131,18 @@ public class AccountRegistrationPage extends Basepage {
 	}
 	
 	public void setPrivacyPolicy() {
-		CheAgree.click(); 
+		CheckBoxAgree.click(); 
+	}
+	
+	public Boolean isPrivacyCheckBox_Selected() {
+		
+		if(CheckBoxAgree.isSelected()) return true;
+		return false;
+		
+	}
+	
+	public String uncheckedPrivacyPolicyWarningMsg() {
+		return privacyPolicyWarningMsg.getText();
 	}
 	
 	public void clickContinue() { 

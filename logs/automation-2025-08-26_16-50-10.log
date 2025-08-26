@@ -1,0 +1,11 @@
+16:50:14.302 [main] INFO  testCases.RegisterFunctionality.TC019_HeadingAndTrailingSpacesforAllFields - TC019_HeadingAndTrailingSpacesforAllFields TestCase started
+16:50:27.663 [main] DEBUG testCases.RegisterFunctionality.TC019_HeadingAndTrailingSpacesforAllFields - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='input-firstname']"}
+  (Session info: chrome=139.0.7258.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [263abf943a9d8daba1cca02f854a27c3, findElement {using=xpath, value=//input[@id='input-firstname']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62155}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62155/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 263abf943a9d8daba1cca02f854a27c3
+16:50:27.664 [main] ERROR testCases.RegisterFunctionality.TC019_HeadingAndTrailingSpacesforAllFields - Register_Invalid_PoneNumber is being accepted

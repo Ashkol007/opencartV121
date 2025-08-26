@@ -24,7 +24,7 @@ public class MyAccountPage extends Basepage {
         @FindBy(xpath="//a[normalize-space()='Subscribe / unsubscribe to newsletter']") WebElement NewsLetter_SubscribeOrUnsubscribe_Link;
         @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']") WebElement NewsLetter_SubscribeSuccess_Message;
         
-        
+        @FindBy(xpath="//ul[@class='list-unstyled']//li//a[normalize-space()='Edit your account information']") WebElement Edit_Your_Account_Info;
         
         
         public boolean MyAccountHeading() {
@@ -68,6 +68,14 @@ public class MyAccountPage extends Basepage {
         	await.until(ExpectedConditions.elementToBeClickable(NewsLetter_SubscribeSuccess_Message));
         	if(NewsLetter_SubscribeSuccess_Message.isDisplayed()) return true;
         			return false;
+        }
+        
+        public void editYourAccountInfoTab() {
+        	
+
+        	await.until(ExpectedConditions.elementToBeClickable(Edit_Your_Account_Info)).click();
+        	
+        	
         }
         
 

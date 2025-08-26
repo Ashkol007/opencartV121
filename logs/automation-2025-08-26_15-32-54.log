@@ -1,0 +1,2 @@
+15:33:00.352 [main] INFO  testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate - TC018_RegisterFields_Height_Width_Characters_Validate TestCase started
+15:33:13.608 [main] INFO  testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate - TC018_RegisterFields_Height_Width_Characters_Validate TestCase passed[Ljava.lang.String;@27329d2a
