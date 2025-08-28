@@ -39,9 +39,10 @@
       <class name="testCases.RegisterFunctionality.TC016_PasswordComplexityStandard"></class>
       <class name="testCases.RegisterFunctionality.TC018_RegisterFields_Height_Width_Characters_Validate"></class>
       <class name="testCases.RegisterFunctionality.TC019_HeadingAndTrailingSpacesforAllFields"></class>
-      <class name="testCases.RegisterFunctionality.TC020_VerifyPrivacyPolicyisSelected"></class>-->
+      <class name="testCases.RegisterFunctionality.TC020_VerifyPrivacyPolicyisSelected"></class>
       <class name="testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy"></class>
-      
+      <class name="testCases.RegisterFunctionality.TC022_CheckIfPasswordInputIsHidden"></class>-->
+      <class name="testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage"></class>
 
     </classes>
   

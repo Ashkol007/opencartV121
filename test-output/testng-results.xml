@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-26T17:46:17 IST" name="Master Suite" finished-at="2025-08-26T17:46:27 IST" duration-ms="9553">
+  <suite started-at="2025-08-28T13:31:53 IST" name="Master Suite" finished-at="2025-08-28T13:32:03 IST" duration-ms="9868">
     <groups>
-      <group name="Sanity">
-        <method signature="TC021_CheckValidMessageforUncheckedPrivacyPolicy.checkValidMessageforUncheckedPrivacyPolicy()[pri:1, instance:testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy@c35172e]" name="checkValidMessageforUncheckedPrivacyPolicy" class="testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy"/>
-      </group> <!-- Sanity -->
+      <group name="Master">
+        <method signature="TC023_CheckAllLinksAvailableOnRegisterPage.validateAllLinksOnRegisterPage()[pri:0, instance:testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage@c35172e]" name="validateAllLinksOnRegisterPage" class="testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage"/>
+      </group> <!-- Master -->
     </groups>
-    <test started-at="2025-08-26T17:46:17 IST" name="Test" finished-at="2025-08-26T17:46:27 IST" duration-ms="9553">
-      <class name="testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy@c35172e]" started-at="2025-08-26T17:46:17 IST" name="setup" finished-at="2025-08-26T17:46:24 IST" duration-ms="6972" status="PASS">
+    <test started-at="2025-08-28T13:31:53 IST" name="Test" finished-at="2025-08-28T13:32:03 IST" duration-ms="9868">
+      <class name="testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage@c35172e]" started-at="2025-08-28T13:31:53 IST" name="setup" finished-at="2025-08-28T13:32:00 IST" duration-ms="6973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkValidMessageforUncheckedPrivacyPolicy()[pri:1, instance:testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy@c35172e]" started-at="2025-08-26T17:46:24 IST" name="checkValidMessageforUncheckedPrivacyPolicy" finished-at="2025-08-26T17:46:27 IST" duration-ms="2273" status="PASS">
+        <test-method signature="validateAllLinksOnRegisterPage()[pri:0, instance:testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage@c35172e]" started-at="2025-08-28T13:32:00 IST" name="validateAllLinksOnRegisterPage" finished-at="2025-08-28T13:32:03 IST" duration-ms="2600" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkValidMessageforUncheckedPrivacyPolicy -->
-      </class> <!-- testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy -->
+        </test-method> <!-- validateAllLinksOnRegisterPage -->
+      </class> <!-- testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

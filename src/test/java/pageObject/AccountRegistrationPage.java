@@ -87,6 +87,15 @@ public class AccountRegistrationPage extends Basepage {
 @FindBy(xpath="//label[normalize-space()='Password']") WebElement LabelPwd;
 @FindBy(xpath="//label[normalize-space()='Password Confirm']") WebElement ConfirmPwd;
 
+   //All links on the Reigster Page
+
+@FindBy(xpath="//a[normalize-space()='login page']") @CacheLookup private WebElement loginPageLink;
+@FindBy(xpath="//b[normalize-space()='Privacy Policy']") @CacheLookup private WebElement privacyPolicylink;
+@FindBy(xpath="//a[normalize-space()='Forgotten Password']") @CacheLookup private WebElement forgottenPasswordlink;
+@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='My Account']") @CacheLookup private WebElement myAccountlink;
+@FindBy(xpath="//a[normalize-space()='Address Book']") @CacheLookup private WebElement addressBooklink;
+
+@FindBy(xpath="//button[normalize-space()='×']") private WebElement PrivacyPolicyCloseBtn;
 	
 	
 	public Boolean isRegisterAccountPage() {
@@ -125,9 +134,17 @@ public class AccountRegistrationPage extends Basepage {
 		
 	}
 	
+	public String getPwdTypeAttribute() {
+		return  InpPassword.getAttribute("type");
+	}
+	
 	public void setConfirmPwd(String confirmpwd) {
-     InpConfirmPwd.sendKeys(confirmpwd);
+      InpConfirmPwd.sendKeys(confirmpwd);
 		
+	}
+	
+	public String getConfirmPwdTypeAttribute() {
+		return  InpConfirmPwd.getAttribute("type");
 	}
 	
 	public void setPrivacyPolicy() {
@@ -394,6 +411,40 @@ public class AccountRegistrationPage extends Basepage {
 		 
 	 }
 	 
+	 
+	 public void loginPageLink() {
+	        await.until(ExpectedConditions.elementToBeClickable(loginPageLink)).click();
+	    }
+
+	    public void privacyPolicyLink() {
+	        await.until(ExpectedConditions.elementToBeClickable(privacyPolicylink)).click();
+	    }
+
+	    public void forgottenPasswordLink() {
+	        await.until(ExpectedConditions.elementToBeClickable(forgottenPasswordlink)).click();
+	    }
+
+	    public void myAccountLink() {
+	        await.until(ExpectedConditions.elementToBeClickable(myAccountlink)).click();
+	    }
+
+	    public void addressBookLink() {
+	        await.until(ExpectedConditions.elementToBeClickable(addressBooklink)).click();
+	    }
+	    
+	    public Boolean isprivacyPolicyPopCloseBtn() {
+
+	    	await.until(ExpectedConditions.elementToBeClickable(PrivacyPolicyCloseBtn));
+	    	
+	    	if(PrivacyPolicyCloseBtn.isDisplayed()) return true;
+	    	return false;
+	    }
+	    
+	    public void privacyPopUpClose() {
+	    	
+	    	await.until(ExpectedConditions.elementToBeClickable(PrivacyPolicyCloseBtn)).click();
+		    
+	    }
 	 
 	 
 

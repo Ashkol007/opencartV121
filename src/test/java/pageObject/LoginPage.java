@@ -2,6 +2,7 @@ package pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -27,6 +28,7 @@ public class LoginPage extends Basepage {
     @FindBy(xpath="//i[@class='fa fa-search']") WebElement SearchBtn;
     @FindBy(xpath="(//div[@class='alert alert-danger alert-dismissible'])[1]")WebElement toastForInvalidEmail;
     @FindBy(xpath="//div[@class='well']//a[normalize-space()='Continue']") WebElement NewCustomerContinueBtn;
+    @FindBy(xpath="//h2[normalize-space()='New Customer']") @CacheLookup private WebElement newCustomerHeading;
     
     public void sendEmail(String email) {
     	Inpemail.sendKeys(email);
@@ -81,6 +83,10 @@ public class LoginPage extends Basepage {
     	await.until(ExpectedConditions.elementToBeClickable(NewCustomerContinueBtn)).click();
     }
 
+    public String newCustomerHeading() {
+    	
+     return await.until(ExpectedConditions.elementToBeClickable(newCustomerHeading)).getText();
+    }
 
 	
 	

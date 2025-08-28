@@ -1,0 +1,12 @@
+19:06:16.044 [main] INFO  testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage -  TC023_CheckAllLinksAvailableOnRegisterPage Tescase started 
+19:06:17.664 [main] ERROR testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage - link on register page is not working properly
+19:06:17.666 [main] DEBUG testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage - stale element reference: stale element not found
+  (Session info: chrome=139.0.7258.67)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18a52cdf8290281d57dcc132537d4729, isElementDisplayed {id=f.6A54613903648D3A69591A10EEFA056A.d.BD3432A6EA6B7ADF4FAD326C848898D7.e.126}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56334/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (18a52cdf8290281d57dcc132537d4729)] -> xpath: //h2[normalize-space()='New Customer']]
+Session ID: 18a52cdf8290281d57dcc132537d4729

@@ -1,0 +1,10 @@
+18:57:55.639 [main] INFO  testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage -  TC023_CheckAllLinksAvailableOnRegisterPage Tescase started 
+18:57:57.177 [main] ERROR testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage - link on register page is not working properly
+18:57:57.181 [main] DEBUG testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage - no such alert
+  (Session info: chrome=139.0.7258.67)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18e9416515d01f9bb0005728a08d1629, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56033/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18e9416515d01f9bb0005728a08d1629

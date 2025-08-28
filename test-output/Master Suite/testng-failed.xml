@@ -15,12 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.RegisterFunctionality.TC020_VerifyPrivacyPolicyisSelected">
+      <class name="testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage">
         <methods>
           <include name="setup"/>
-          <include name="accountRegistraion"/>
+          <include name="validateAllLinksOnRegisterPage"/>
         </methods>
-      </class> <!-- testCases.RegisterFunctionality.TC020_VerifyPrivacyPolicyisSelected -->
+      </class> <!-- testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
