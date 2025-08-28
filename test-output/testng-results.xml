@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-28T13:31:53 IST" name="Master Suite" finished-at="2025-08-28T13:32:03 IST" duration-ms="9868">
+  <suite started-at="2025-08-28T16:56:42 IST" name="Master Suite" finished-at="2025-08-28T16:56:50 IST" duration-ms="8118">
     <groups>
       <group name="Master">
-        <method signature="TC023_CheckAllLinksAvailableOnRegisterPage.validateAllLinksOnRegisterPage()[pri:0, instance:testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage@c35172e]" name="validateAllLinksOnRegisterPage" class="testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage"/>
+        <method signature="TC025_VerifyPage_Url_BreadCrumb_Title_Heading.verifyPageUrlBreadCrumbTitleHeading()[pri:0, instance:testCases.RegisterFunctionality.TC025_VerifyPage_Url_BreadCrumb_Title_Heading@c35172e]" name="verifyPageUrlBreadCrumbTitleHeading" class="testCases.RegisterFunctionality.TC025_VerifyPage_Url_BreadCrumb_Title_Heading"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2025-08-28T13:31:53 IST" name="Test" finished-at="2025-08-28T13:32:03 IST" duration-ms="9868">
-      <class name="testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage@c35172e]" started-at="2025-08-28T13:31:53 IST" name="setup" finished-at="2025-08-28T13:32:00 IST" duration-ms="6973" status="PASS">
+    <test started-at="2025-08-28T16:56:42 IST" name="Test" finished-at="2025-08-28T16:56:50 IST" duration-ms="8118">
+      <class name="testCases.RegisterFunctionality.TC025_VerifyPage_Url_BreadCrumb_Title_Heading">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC025_VerifyPage_Url_BreadCrumb_Title_Heading@c35172e]" started-at="2025-08-28T16:56:43 IST" name="setup" finished-at="2025-08-28T16:56:49 IST" duration-ms="6673" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateAllLinksOnRegisterPage()[pri:0, instance:testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage@c35172e]" started-at="2025-08-28T13:32:00 IST" name="validateAllLinksOnRegisterPage" finished-at="2025-08-28T13:32:03 IST" duration-ms="2600" status="PASS">
+        <test-method signature="verifyPageUrlBreadCrumbTitleHeading()[pri:0, instance:testCases.RegisterFunctionality.TC025_VerifyPage_Url_BreadCrumb_Title_Heading@c35172e]" started-at="2025-08-28T16:56:49 IST" name="verifyPageUrlBreadCrumbTitleHeading" finished-at="2025-08-28T16:56:50 IST" duration-ms="1098" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAllLinksOnRegisterPage -->
-      </class> <!-- testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage -->
+        </test-method> <!-- verifyPageUrlBreadCrumbTitleHeading -->
+      </class> <!-- testCases.RegisterFunctionality.TC025_VerifyPage_Url_BreadCrumb_Title_Heading -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

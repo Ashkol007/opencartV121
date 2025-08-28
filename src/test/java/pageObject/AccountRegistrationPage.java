@@ -96,12 +96,19 @@ public class AccountRegistrationPage extends Basepage {
 @FindBy(xpath="//a[normalize-space()='Address Book']") @CacheLookup private WebElement addressBooklink;
 
 @FindBy(xpath="//button[normalize-space()='×']") private WebElement PrivacyPolicyCloseBtn;
+@FindBy(xpath="//ul[@class='breadcrumb']//a[normalize-space()='Register']") @CacheLookup private WebElement registerBreadCrumb;
+
 	
 	
 	public Boolean isRegisterAccountPage() {
 		
 		if(RegisterAccount_Heading.isDisplayed()) return true;
 		return false;
+	}
+	
+	public String getRegisterAccountHeading() {
+		
+		return RegisterAccount_Heading.getText();
 	}
 	
 	public void setFirstname(String firstname){
@@ -444,6 +451,13 @@ public class AccountRegistrationPage extends Basepage {
 	    	
 	    	await.until(ExpectedConditions.elementToBeClickable(PrivacyPolicyCloseBtn)).click();
 		    
+	    }
+	    
+	    public String registerBreadCrumb() {
+	    	
+
+	    	return await.until(ExpectedConditions.elementToBeClickable(registerBreadCrumb)).getText();
+	    	
 	    }
 	 
 	 
