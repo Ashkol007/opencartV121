@@ -208,6 +208,11 @@ public class AccountRegistrationPage extends Basepage {
 		
 	}
 	
+	public String getEmailToolTipWarningMsg() {
+		
+		return InpEmail.getAttribute("validationMessage");
+	}
+	
 	public Boolean accountSuccessContent(String expectedText) {
 		
 		String actualText =  AccountSuccessContent.getText();

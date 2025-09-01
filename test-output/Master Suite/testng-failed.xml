@@ -15,12 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI">
+      <class name="testCases.TC0018_ToolTipValidationMessageForEmail">
         <methods>
           <include name="setup"/>
-          <include name="verifyPageUrlBreadCrumbTitleHeading"/>
+          <include name="emailVerfication"/>
         </methods>
-      </class> <!-- testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI -->
+      </class> <!-- testCases.TC0018_ToolTipValidationMessageForEmail -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

@@ -1,0 +1,4 @@
+15:07:52.549 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail -  ************** TC0018_Email Validation TestCase started ***********
+15:07:54.387 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail - $$EmailToolTipWarningMsg$$ :null
+15:07:54.418 [main] ERROR testCases.TC0018_ToolTipValidationMessageForEmail - Error message for Email has created!!!
+15:07:54.419 [main] DEBUG testCases.TC0018_ToolTipValidationMessageForEmail - Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "pageObject.AccountRegistrationPage.getEmailToolTipWarningMsg()" is null

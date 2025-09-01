@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-28T17:50:56 IST" name="Master Suite" finished-at="2025-08-28T17:51:03 IST" duration-ms="7208">
+  <suite started-at="2025-09-01T15:15:34 IST" name="Master Suite" finished-at="2025-09-01T15:15:48 IST" duration-ms="13992">
     <groups>
       <group name="Master">
-        <method signature="TC026_VerifyReisterPageWholeUI.verifyPageUrlBreadCrumbTitleHeading()[pri:0, instance:testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI@c35172e]" name="verifyPageUrlBreadCrumbTitleHeading" class="testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI"/>
+        <method signature="TC0018_ToolTipValidationMessageForEmail.emailVerfication()[pri:0, instance:testCases.TC0018_ToolTipValidationMessageForEmail@c35172e]" name="emailVerfication" class="testCases.TC0018_ToolTipValidationMessageForEmail"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2025-08-28T17:50:56 IST" name="Test" finished-at="2025-08-28T17:51:03 IST" duration-ms="7208">
-      <class name="testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI@c35172e]" started-at="2025-08-28T17:50:56 IST" name="setup" finished-at="2025-08-28T17:51:01 IST" duration-ms="5270" status="PASS">
+    <test started-at="2025-09-01T15:15:34 IST" name="Test" finished-at="2025-09-01T15:15:48 IST" duration-ms="13992">
+      <class name="testCases.TC0018_ToolTipValidationMessageForEmail">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0018_ToolTipValidationMessageForEmail@c35172e]" started-at="2025-09-01T15:15:35 IST" name="setup" finished-at="2025-09-01T15:15:47 IST" duration-ms="12222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPageUrlBreadCrumbTitleHeading()[pri:0, instance:testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI@c35172e]" started-at="2025-08-28T17:51:01 IST" name="verifyPageUrlBreadCrumbTitleHeading" finished-at="2025-08-28T17:51:03 IST" duration-ms="1668" status="PASS">
+        <test-method signature="emailVerfication()[pri:0, instance:testCases.TC0018_ToolTipValidationMessageForEmail@c35172e]" started-at="2025-09-01T15:15:47 IST" name="emailVerfication" finished-at="2025-09-01T15:15:48 IST" duration-ms="1436" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPageUrlBreadCrumbTitleHeading -->
-      </class> <!-- testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI -->
+        </test-method> <!-- emailVerfication -->
+      </class> <!-- testCases.TC0018_ToolTipValidationMessageForEmail -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>
