@@ -19,7 +19,7 @@
   <test thread-count="5" name="Test">
   
   <parameter name="os" value="windows"></parameter>
- <parameter name="browser" value="chrome"></parameter>
+ <parameter name="browser" value="firefox"></parameter>
  
  
   

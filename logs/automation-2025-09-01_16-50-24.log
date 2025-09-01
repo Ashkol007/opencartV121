@@ -1,0 +1,2 @@
+16:50:31.910 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail -  ************** TC0018_Email Validation TestCase started ***********
+16:50:33.179 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail - $$EmailToolTipWarningMsg$$ :Please enter an email address.

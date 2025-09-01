@@ -1,0 +1,3 @@
+16:44:38.139 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail -  ************** TC0018_Email Validation TestCase started ***********
+16:44:39.636 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail - $$EmailToolTipWarningMsg$$ :Please include an '@' in the email address. 'ashi123' is missing an '@'.
+16:44:39.678 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail -  ************** TC0018_Email Validation TestCase ended *********** 

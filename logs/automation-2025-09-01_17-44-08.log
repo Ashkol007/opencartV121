@@ -1,0 +1,3 @@
+17:44:16.713 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail -  ************** TC0018_Email Validation TestCase started ***********
+17:44:17.877 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail - $$FirfoxEmailToolTipWarningMsg$$ :Please enter an email address.
+17:44:17.912 [main] INFO  testCases.TC0018_ToolTipValidationMessageForEmail -  ************** TC0018_Email Validation TestCase ended *********** 
