@@ -27,8 +27,8 @@ public class TC021_CheckValidMessageforUncheckedPrivacyPolicy extends BaseClass{
 	    Arp.setLastName(nameGenerator(5));
 	    Arp.setEmail(nameGenerator(5)+"@gmail.com");
 	    Arp.setTelephone(numGenerator(10));
-	    Arp.setPassword("12345");
-	    Arp.setConfirmPwd("12345");
+	    Arp.setPassword(p.getProperty("password"));
+	    Arp.setConfirmPwd(p.getProperty("confirmpwd"));
 	    Arp.selectYesForNewsletterSubscribe();
 	    Arp.clickContinue();
 	    

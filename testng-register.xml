@@ -44,8 +44,10 @@
       <class name="testCases.RegisterFunctionality.TC022_CheckIfPasswordInputIsHidden"></class>
       <class name="testCases.RegisterFunctionality.TC023_CheckAllLinksAvailableOnRegisterPage"></class>
       <class name="testCases.RegisterFunctionality.TC024_CheckConfirmPwdWarningMessage"></class>
-      <class name="testCases.RegisterFunctionality.TC025_VerifyPage_Url_BreadCrumb_Title_Heading"></class>-->
-      <class name="testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI"></class>
+      <class name="testCases.RegisterFunctionality.TC025_VerifyPage_Url_BreadCrumb_Title_Heading"></class>
+      <class name="testCases.RegisterFunctionality.TC026_VerifyReisterPageWholeUI"></class>-->
+      
+      <class name="testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy"></class>
 
     </classes>
   
