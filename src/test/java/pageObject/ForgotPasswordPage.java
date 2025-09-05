@@ -16,8 +16,12 @@ public class ForgotPasswordPage extends Basepage {
 	@FindBy(xpath="//input[@name='email']") WebElement emailInput;
 	@FindBy(xpath="//input[@type='submit']") WebElement continueBtn;
 	@FindBy(xpath="//h1[normalize-space()='Forgot Your Password?']") WebElement forgottenPasswordHeading;
+	
 	@FindBy(xpath="//p[contains(text(),'Enter the e-mail address associated with your acco')]")
 	WebElement forgottenPasswordParagraphText;
+	
+	@FindBy(linkText="Forgotten Password")
+	WebElement forgottenPasswordBreadCrumb;
 	
 	
 	public void setForgotEmail(String email) {

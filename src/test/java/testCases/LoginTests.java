@@ -1,5 +1,7 @@
 package testCases;
 
+import java.time.Duration;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -13,6 +15,9 @@ public class LoginTests extends BaseClass {
 	Homepage homepage;
 	LoginPage loginpage;
 	ForgotPasswordPage forgottenPasswordPage;
+	MyAccountPage myaccountpage;
+	
+	
 	
 	@Test(priority=1,groups= {"Master","Regression"})
 	public void accountLogin() {
@@ -27,11 +32,11 @@ public class LoginTests extends BaseClass {
 	    	 loginpage.sendPwd(p.getProperty("password"));
 	    	 loginpage.clickLogin();
 	    	 
-	    	 MyAccountPage Map = new MyAccountPage(driver);
-	    	 Boolean HeadingTxt =  Map.MyAccountHeading();
+	    	 myaccountpage = new MyAccountPage(driver);
+	    	 Boolean HeadingTxt =  myaccountpage.MyAccountHeading();
              
 	    	 Assert.assertEquals(true, HeadingTxt);
-	    	 Assert.assertTrue(Map.isRightSideLogoutLinkDisplayed());
+	    	 Assert.assertTrue(myaccountpage.isRightSideLogoutLinkDisplayed());
 
 	    	 logger.info("Heding Text Passed SuccessFully" + HeadingTxt);
 			 logger.info("*********TC01_Login to App using valid credentials testcase ended****************");
@@ -130,13 +135,41 @@ public class LoginTests extends BaseClass {
 		              homepage.myAccount();
 		              loginpage =  homepage.loginV2();
 		  
-	    	 
+
+		     Assert.assertTrue(loginpage.isForgottenPwdLinkpresent());
+	    	        
 	    	         forgottenPasswordPage =  loginpage.clickForgotPasswordv2();
 	    	 
-             
 	    	 Assert.assertEquals(forgottenPasswordPage.getForgottenPwdHeading(),"Forgot Your Password?");
 	    	 Assert.assertEquals(forgottenPasswordPage.getForgottenPasswordParagraphText(), "Enter the e-mail address associated with your account. Click submit to have a password reset link e-mailed to you.");
 
+			 logger.info("*********TC06_Check if Forgot password link is working fine testcase passed****************");
+	    	 
+	}
+	
+	@Test(priority=7,groups= {"Master","Regression"})
+	public void verifyLoginUsingKeyboardKeys() {
+		     
+		     logger.info("*********TC07_Verify login Functionalty using keyboard keys testcase started****************");
+		              homepage = new Homepage(driver);
+		              homepage.myAccount();
+		              loginpage =  homepage.loginV2();
+		              
+		              loginpage.usingTabKeyToReachLoginFieldandPassValues();
+		              
+		              myaccountpage = new MyAccountPage(driver);
+		              try {
+						Thread.sleep(Duration.ofSeconds(1));
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+		 	    	  Boolean HeadingTxt =  myaccountpage.MyAccountHeading();
+		              
+		 	    	 Assert.assertEquals(true, HeadingTxt);
+		 	    	 Assert.assertTrue(myaccountpage.isRightSideLogoutLinkDisplayed());
+
+		     
 			 logger.info("*********TC06_Check if Forgot password link is working fine testcase passed****************");
 	    	 
 	}

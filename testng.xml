@@ -49,7 +49,7 @@
       
        <class name="testCases.LoginTests">
         <methods>          
-          <include name="loginAccountUsingValidEmailandInvalidPwd"/>   <!-- your method name -->
+          <include name="verifyLoginUsingKeyboardKeys"/>   <!-- your method name -->
         </methods>
       </class>
        

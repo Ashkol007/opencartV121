@@ -1,7 +1,11 @@
 package pageObject;
 
+import java.time.Duration;
+
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -31,6 +35,9 @@ public class LoginPage extends Basepage {
     @FindBy(xpath="(//div[@class='alert alert-danger alert-dismissible'])[1]")WebElement toastForInvalidEmail;
     @FindBy(xpath="//div[@class='well']//a[normalize-space()='Continue']") WebElement NewCustomerContinueBtn;
     @FindBy(xpath="//h2[normalize-space()='New Customer']") @CacheLookup private WebElement newCustomerHeading;
+    
+    @FindBy(linkText="Forgotten Password")
+    WebElement forgottenPasswordLink;
     
     public void sendEmail(String email) {
     	Inpemail.sendKeys(email);
@@ -74,6 +81,10 @@ public class LoginPage extends Basepage {
         ForgotPassword.click();
         return new ForgotPasswordPage(driver);
     }
+    
+    public Boolean isForgottenPwdLinkpresent() {
+    	return await.until(ExpectedConditions.elementToBeClickable(forgottenPasswordLink)).isDisplayed();
+    }
 
     public Boolean isForgotPwdConfirmMessage() {
       
@@ -107,10 +118,24 @@ public class LoginPage extends Basepage {
     	
      return await.until(ExpectedConditions.elementToBeClickable(newCustomerHeading)).getText();
     }
+    
+    public void usingTabKeyToReachLoginFieldandPassValues(){
 
+		Actions act = new Actions(driver);
+    	
+         //		Reach to login field
+           for(int i=1;i<=23;i++) {
+       		        act.sendKeys(Keys.TAB).build().perform();
+       		  }
+       
+           act.sendKeys("ashitosh1@gmail.com").pause(Duration.ofSeconds(1))
+           .sendKeys(Keys.TAB).pause(Duration.ofSeconds(1))
+           .sendKeys("12345").pause(Duration.ofSeconds(1))
+           .sendKeys(Keys.TAB).pause(Duration.ofSeconds(1)).sendKeys(Keys.TAB).pause(Duration.ofSeconds(1))
+           .sendKeys(Keys.ENTER).build().perform();
 	
 	
 	
-	
+    }
 
 }
