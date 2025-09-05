@@ -16,6 +16,8 @@ public class ForgotPasswordPage extends Basepage {
 	@FindBy(xpath="//input[@name='email']") WebElement emailInput;
 	@FindBy(xpath="//input[@type='submit']") WebElement continueBtn;
 	@FindBy(xpath="//h1[normalize-space()='Forgot Your Password?']") WebElement forgottenPasswordHeading;
+	@FindBy(xpath="//p[contains(text(),'Enter the e-mail address associated with your acco')]")
+	WebElement forgottenPasswordParagraphText;
 	
 	
 	public void setForgotEmail(String email) {
@@ -35,6 +37,11 @@ public class ForgotPasswordPage extends Basepage {
 		await.until(ExpectedConditions.elementToBeClickable(forgottenPasswordHeading));
 		
 		return forgottenPasswordHeading.getText();
+	}
+	
+	public String getForgottenPasswordParagraphText() {
+		
+		return await.until(ExpectedConditions.elementToBeClickable(forgottenPasswordParagraphText)).getText();
 	}
 	
   	

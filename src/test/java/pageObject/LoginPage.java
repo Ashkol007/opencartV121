@@ -68,6 +68,12 @@ public class LoginPage extends Basepage {
         await.until(ExpectedConditions.elementToBeClickable(ForgotPassword));
         ForgotPassword.click();
     }
+    
+    public ForgotPasswordPage clickForgotPasswordv2() {
+        await.until(ExpectedConditions.elementToBeClickable(ForgotPassword));
+        ForgotPassword.click();
+        return new ForgotPasswordPage(driver);
+    }
 
     public Boolean isForgotPwdConfirmMessage() {
       
