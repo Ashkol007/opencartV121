@@ -54,7 +54,7 @@ public class LoginTests extends BaseClass {
 	    	 Assert.assertTrue(loginpage.isEmailandPwdWarningDisplayed());
 	    	 Assert.assertEquals(loginpage.getEmailandPwdValidationWarningText(), "Warning: No match for E-Mail Address and/or Password.");
 
-			 logger.info("*********TC0002_TC01_Login to App using invalid credentials testcase ended****************");
+			 logger.info("*********TC02_Login to App using invalid credentials testcase ended****************");
 	    	 
 	}
 	
@@ -75,7 +75,28 @@ public class LoginTests extends BaseClass {
 	    	 Assert.assertTrue(loginpage.isEmailandPwdWarningDisplayed());
 	    	 Assert.assertEquals(loginpage.getEmailandPwdValidationWarningText(), "Warning: No match for E-Mail Address and/or Password.");
 
-			 logger.info("*********TC03_TC03_Login to App using valid email invalid pwd credentials testcase ended****************");
+			 logger.info("*********TC03_Login to App using valid email invalid pwd credentials testcase ended****************");
+	    	 
+	}
+	
+	@Test(priority=4,groups= {"Master","Regression"})
+	public void loginAccountUsingValidEmailandInvalidPwd() {
+		     
+		     logger.info("*********TC04_Login to App using Invalid email and valid pwd credentials testcase started****************");
+		              homepage = new Homepage(driver);
+		              homepage.myAccount();
+		              loginpage =  homepage.loginV2();
+		  
+	    	 
+	    	 loginpage.sendEmail(p.getProperty("invalidemail"));
+	    	 loginpage.sendPwd(p.getProperty("password"));
+	    	 loginpage.clickLogin();
+	    	 
+             
+	    	 Assert.assertTrue(loginpage.isEmailandPwdWarningDisplayed());
+	    	 Assert.assertEquals(loginpage.getEmailandPwdValidationWarningText(), "Warning: No match for E-Mail Address and/or Password.");
+
+			 logger.info("*********TC04_Login to App using Invalid email and valid pwd credentials testcase ended****************");
 	    	 
 	}
 	

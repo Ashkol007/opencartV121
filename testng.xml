@@ -48,8 +48,8 @@
       <class name="testCases.LoginTests"></class>-->
       
        <class name="testCases.LoginTests">
-        <methods>
-          <include name="loginAccountUsingValidEmailAndInvalidPwd"/>   <!-- your method name -->
+        <methods>          
+          <include name="loginAccountUsingValidEmailandInvalidPwd"/>   <!-- your method name -->
         </methods>
       </class>
        

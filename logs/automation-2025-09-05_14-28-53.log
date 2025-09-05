@@ -1,0 +1,6 @@
+14:28:59.816 [main] INFO  testCases.LoginTests - *********TC01_Login to App using valid credentials testcase started****************
+14:29:01.744 [main] INFO  testCases.LoginTests - Heding Text Passed SuccessFullytrue
+14:29:01.746 [main] INFO  testCases.LoginTests - *********TC01_Login to App using valid credentials testcase ended****************
+14:29:01.772 [main] INFO  testCases.LoginTests - *********TC01_Login to App using invalid credentials testcase started****************
+14:29:11.996 [main] INFO  testCases.LoginTests - *********TC03_Login to App using valid email invalid pwd credentials testcase started****************
+14:29:22.193 [main] INFO  testCases.LoginTests - *********TC04_Login to App using Invalid email and valid pwd credentials testcase started****************

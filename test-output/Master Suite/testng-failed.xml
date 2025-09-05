@@ -18,7 +18,7 @@
       <class name="testCases.LoginTests">
         <methods>
           <include name="setup"/>
-          <include name="loginAccountUsingInvalidCredentials"/>
+          <include name="loginAccountUsingValidEmailandInvalidPwd"/>
         </methods>
       </class> <!-- testCases.LoginTests -->
     </classes>
