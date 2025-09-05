@@ -67,15 +67,26 @@ public class ExtentReportManager implements ITestListener {
 	
 	
 	public void onTestSuccess(ITestResult result) {
-		
-		test = extent.createTest(result.getTestClass().getName());
+		String testName = 
+			    "<span style='background-color:#0390fc; color:white; padding:4px 8px; border-radius:6px; font-weight:bold;'>"
+			    + result.getTestClass().getName() + "</span> " 
+			    + "<span style='color:white; padding:2px 4px; border: .5px solid white; border-radius:3px;'>"
+			    + result.getMethod().getMethodName() + "</span>";
+
+		test = extent.createTest(testName);
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.PASS, result.getName()+" got successfully executed");
 		
 		}
 	
 	public void onTestFailure(ITestResult result) {
-		test = extent.createTest(result.getTestClass().getName());
+		String testName = 
+			    "<span style='background-color:#0390fc; color:white; padding:4px 8px; border-radius:6px; font-weight:bold;'>"
+			    + result.getTestClass().getName() + "</span> " 
+			    + "<span style='color:white; padding:2px 4px; border: .5px solid white; border-radius:3px;'>"
+			    + result.getMethod().getMethodName() + "</span>";
+
+		test = extent.createTest(testName);
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.FAIL, result.getName()+" got Failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
@@ -92,7 +103,13 @@ public class ExtentReportManager implements ITestListener {
 	}
 	
 	public void onTestSkip(ITestResult result){
-		test = extent.createTest(result.getTestClass().getName());
+		String testName = 
+			    "<span style='background-color:#0390fc; color:white; padding:4px 8px; border-radius:6px; font-weight:bold;'>"
+			    + result.getTestClass().getName() + "</span> " 
+			    + "<span style='color:white; padding:2px 4px; border: .5px solid white; border-radius:3px;'>"
+			    + result.getMethod().getMethodName() + "</span>";
+
+		test = extent.createTest(testName);
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.SKIP,result.getName()+" test skipped");
 		test.log(Status.INFO, result.getThrowable().getMessage());

@@ -17,7 +17,13 @@
     <classes>
       <class name="testCases.LoginTests">
         <methods>
+          <include name="loginAccountUsingValidEmailAndInvalidPwd"/>
           <include name="setup"/>
+          <include name="verifyForgotPwdLinkIsPresentandWorkingFine"/>
+          <include name="loginAccountUsingInvalidCredentials"/>
+          <include name="loginAccountWithEmptyEmailandPwdField"/>
+          <include name="loginAccountUsingValidEmailandInvalidPwd"/>
+          <include name="verifyEmailandPasswordFieldsPlaceHolderText"/>
           <include name="verifyLoginUsingKeyboardKeys"/>
         </methods>
       </class> <!-- testCases.LoginTests -->

@@ -1,0 +1,10 @@
+20:10:56.106 [main] INFO  testCases.LoginTests - *********TC01_Login to App using valid credentials testcase started****************
+20:10:58.049 [main] INFO  testCases.LoginTests - Heding Text Passed SuccessFullytrue
+20:10:58.049 [main] INFO  testCases.LoginTests - *********TC01_Login to App using valid credentials testcase ended****************
+20:10:58.304 [main] INFO  testCases.LoginTests - *********TC02_Login to App using invalid credentials testcase started****************
+20:10:58.320 [main] INFO  testCases.LoginTests - *********TC03_Login to App using valid email invalid pwd credentials testcase started****************
+20:10:58.334 [main] INFO  testCases.LoginTests - *********TC04_Login to App using Invalid email and valid pwd credentials testcase started****************
+20:10:58.346 [main] INFO  testCases.LoginTests - *********TC05_Login to App with empty email and pwd field credentials testcase started****************
+20:10:58.355 [main] INFO  testCases.LoginTests - *********TC06_Check if Forgot password link is working fine testcase started****************
+20:10:58.364 [main] INFO  testCases.LoginTests - *********TC07_Verify login Functionalty using keyboard keys testcase started****************
+20:10:58.374 [main] INFO  testCases.LoginTests - *********TC08_verfify the email and password placholder text testcase started****************

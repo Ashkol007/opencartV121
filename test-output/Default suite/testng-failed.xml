@@ -5,10 +5,15 @@
     <classes>
       <class name="testCases.LoginTests">
         <methods>
+          <include name="loginAccountUsingValidEmailAndInvalidPwd"/>
           <include name="setup"/>
           <include name="loginAccountUsingInvalidCredentials"/>
+          <include name="verifyForgotPwdLinkIsPresentandWorkingFine"/>
           <include name="teardown"/>
-          <include name="accountLogin"/>
+          <include name="loginAccountWithEmptyEmailandPwdField"/>
+          <include name="loginAccountUsingValidEmailandInvalidPwd"/>
+          <include name="verifyEmailandPasswordFieldsPlaceHolderText"/>
+          <include name="verifyLoginUsingKeyboardKeys"/>
         </methods>
       </class> <!-- testCases.LoginTests -->
     </classes>

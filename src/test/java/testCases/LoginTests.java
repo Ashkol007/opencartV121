@@ -47,7 +47,7 @@ public class LoginTests extends BaseClass {
 	@Test(priority=2,groups= {"Master","Regression"})
 	public void loginAccountUsingInvalidCredentials() {
 		     
-		     logger.info("*********TC01_Login to App using invalid credentials testcase started****************");
+		     logger.info("*********TC02_Login to App using invalid credentials testcase started****************");
 		              homepage = new Homepage(driver);
 		              homepage.myAccount();
 		              loginpage =  homepage.loginV2();
@@ -173,6 +173,26 @@ public class LoginTests extends BaseClass {
 			 logger.info("*********TC06_Check if Forgot password link is working fine testcase passed****************");
 	    	 
 	}
+	
+	
+	@Test(priority=8,groups= {"Master","Regression"})
+	public void verifyEmailandPasswordFieldsPlaceHolderText() {
+		     
+		     logger.info("*********TC08_verfify the email and password placholder text testcase started****************");
+		              homepage = new Homepage(driver);
+		              homepage.myAccount();
+		              loginpage =  homepage.loginV2();
+		  
+	    	 
+	    	 
+             
+	    	 Assert.assertEquals(loginpage.getEmailPlaceholderText(),"E-Mail Address");
+	    	 Assert.assertEquals(loginpage.getPasswordPlaceholderText(), "Password");
+
+			 logger.info("*********TC08_verfify the email and password placholder text testcase passed****************");
+	    	 
+	}
+
 	
 	
 

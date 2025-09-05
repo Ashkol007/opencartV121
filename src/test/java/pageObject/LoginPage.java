@@ -47,6 +47,18 @@ public class LoginPage extends Basepage {
     	Inppassword.sendKeys(pwd);
     }
     
+    public String getEmailPlaceholderText() {
+    	
+    	return Inpemail.getDomAttribute("placeholder");
+    }
+    
+    public String getPasswordPlaceholderText() {
+    	
+    	return Inppassword.getDomAttribute("placeholder");
+    }
+    
+    
+    
     public void clickLogin() {
          Btnlogin.click();	
     }

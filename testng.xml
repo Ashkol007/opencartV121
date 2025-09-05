@@ -47,15 +47,15 @@
       <class name="testCases.TC0018_ToolTipValidationMessageForEmail"></class>
       <class name="testCases.LoginTests"></class>-->
       
-       <class name="testCases.LoginTests">
+      <class name="testCases.LoginTests">
         <methods>          
-          <include name="verifyLoginUsingKeyboardKeys"/>   <!-- your method name -->
+          <include name="verifyEmailandPasswordFieldsPlaceHolderText"/>   
         </methods>
       </class>
        
     </classes>
   
-  </test> <!-- Test -->
+  </test> <!-- Test-->
 
 
 </suite> <!-- Suite -->
