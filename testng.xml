@@ -43,8 +43,15 @@
       <class name="testCases.TC0015_CheckProductCompare"></class> 
       <class name="testCases.TC0016_SubscribeToNewsletter"></class>
       <class name="testCases.RegisterFunctionality.TC004_MandatoryFieldsNotifications"></class>  
-      <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>  -->
+      <class name="testCases.RegisterFunctionality.TC005_YesOptionForNewsLetterField"></class>  
       <class name="testCases.TC0018_ToolTipValidationMessageForEmail"></class>
+      <class name="testCases.LoginTests"></class>-->
+      
+       <class name="testCases.LoginTests">
+        <methods>
+          <include name="loginAccountUsingValidEmailAndInvalidPwd"/>   <!-- your method name -->
+        </methods>
+      </class>
        
     </classes>
   

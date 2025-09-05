@@ -1,0 +1,2 @@
+13:31:04.858 [main] INFO  testCases.LoginTests - *********TC01_Login to App using invalid credentials testcase started****************
+13:31:06.500 [main] INFO  testCases.LoginTests - *********TC0002_TC01_Login to App using invalid credentials testcase ended****************

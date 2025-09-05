@@ -46,9 +46,15 @@ public class Homepage extends Basepage {
 		Register_txt.click();
 	}
 	
-	public void login() {
+    public void login() {
 		
 		Login_txt.click();
+	}
+	
+	public LoginPage loginV2() {
+		
+		Login_txt.click();
+		return new LoginPage(driver);
 	}
 	
 	public void addtocart() {

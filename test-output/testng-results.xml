@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-03T20:03:42 IST" name="Master Suite" finished-at="2025-09-03T20:03:57 IST" duration-ms="14469">
+  <suite started-at="2025-09-05T14:21:32 IST" name="Master Suite" finished-at="2025-09-05T14:21:42 IST" duration-ms="9468">
     <groups>
-      <group name="Sanity">
-        <method signature="TC021_CheckValidMessageforUncheckedPrivacyPolicy.checkValidMessageforUncheckedPrivacyPolicy()[pri:1, instance:testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy@c35172e]" name="checkValidMessageforUncheckedPrivacyPolicy" class="testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy"/>
-      </group> <!-- Sanity -->
+      <group name="Master">
+        <method signature="LoginTests.loginAccountUsingValidEmailAndInvalidPwd()[pri:3, instance:testCases.LoginTests@3cc41abc]" name="loginAccountUsingValidEmailAndInvalidPwd" class="testCases.LoginTests"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="LoginTests.loginAccountUsingValidEmailAndInvalidPwd()[pri:3, instance:testCases.LoginTests@3cc41abc]" name="loginAccountUsingValidEmailAndInvalidPwd" class="testCases.LoginTests"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-09-03T20:03:42 IST" name="Test" finished-at="2025-09-03T20:03:57 IST" duration-ms="14469">
-      <class name="testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy@c35172e]" started-at="2025-09-03T20:03:42 IST" name="setup" finished-at="2025-09-03T20:03:54 IST" duration-ms="11536" status="PASS">
+    <test started-at="2025-09-05T14:21:32 IST" name="Test" finished-at="2025-09-05T14:21:42 IST" duration-ms="9468">
+      <class name="testCases.LoginTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTests@3cc41abc]" started-at="2025-09-05T14:21:32 IST" name="setup" finished-at="2025-09-05T14:21:40 IST" duration-ms="7654" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -19,18 +22,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkValidMessageforUncheckedPrivacyPolicy()[pri:1, instance:testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy@c35172e]" started-at="2025-09-03T20:03:54 IST" name="checkValidMessageforUncheckedPrivacyPolicy" finished-at="2025-09-03T20:03:57 IST" duration-ms="2543" status="PASS">
+        <test-method signature="loginAccountUsingValidEmailAndInvalidPwd()[pri:3, instance:testCases.LoginTests@3cc41abc]" started-at="2025-09-05T14:21:40 IST" name="loginAccountUsingValidEmailAndInvalidPwd" finished-at="2025-09-05T14:21:42 IST" duration-ms="1565" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkValidMessageforUncheckedPrivacyPolicy -->
-      </class> <!-- testCases.RegisterFunctionality.TC021_CheckValidMessageforUncheckedPrivacyPolicy -->
+        </test-method> <!-- loginAccountUsingValidEmailAndInvalidPwd -->
+      </class> <!-- testCases.LoginTests -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

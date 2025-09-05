@@ -15,12 +15,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC0018_ToolTipValidationMessageForEmail">
+      <class name="testCases.LoginTests">
         <methods>
           <include name="setup"/>
-          <include name="emailVerfication"/>
+          <include name="loginAccountUsingInvalidCredentials"/>
         </methods>
-      </class> <!-- testCases.TC0018_ToolTipValidationMessageForEmail -->
+      </class> <!-- testCases.LoginTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

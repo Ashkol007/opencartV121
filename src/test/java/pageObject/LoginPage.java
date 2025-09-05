@@ -21,6 +21,8 @@ public class LoginPage extends Basepage {
     @FindBy(xpath="//input[@id='input-password']") WebElement Inppassword;
     @FindBy(xpath="//input[@value='Login']") WebElement Btnlogin;
     @FindBy(xpath="//div[contains(@class,'alert') and text()='Warning: No match for E-Mail Address and/or Password.']")WebElement PasswordValidationTxt;
+
+    @FindBy(xpath="//div[contains(@class,'alert') and text()='Warning: No match for E-Mail Address and/or Password.']")WebElement PasswordandEmailValidationWarning;
     @FindBy(xpath="(//a[normalize-space()='Forgotten Password'])[1]") WebElement ForgotPassword;
     @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']") WebElement ForgotPwdConfirmMsg;
 
@@ -48,6 +50,18 @@ public class LoginPage extends Basepage {
     		return true;
     	}
     	return false; 
+    }
+    
+    public String getEmailandPwdValidationWarningText() {
+
+    	return await.until(ExpectedConditions.visibilityOf(PasswordandEmailValidationWarning)).getText();
+    	
+    }
+    
+    public Boolean isEmailandPwdWarningDisplayed() {
+    	
+
+    	return await.until(ExpectedConditions.visibilityOf(PasswordandEmailValidationWarning)).isDisplayed();
     }
     
     public void clickForgotPassword() {

@@ -25,6 +25,9 @@ public class MyAccountPage extends Basepage {
         @FindBy(xpath="//div[@class='alert alert-success alert-dismissible']") WebElement NewsLetter_SubscribeSuccess_Message;
         
         @FindBy(xpath="//ul[@class='list-unstyled']//li//a[normalize-space()='Edit your account information']") WebElement Edit_Your_Account_Info;
+       
+        @FindBy(linkText="Logout") @CacheLookup private 
+        WebElement rightSideLogoutLink;
         
         
         public boolean MyAccountHeading() {
@@ -79,6 +82,12 @@ public class MyAccountPage extends Basepage {
         }
         
 
+        public Boolean isRightSideLogoutLinkDisplayed() {
+        	
+
+        return	await.until(ExpectedConditions.elementToBeClickable(rightSideLogoutLink)).isDisplayed();
+        	
+        }
         
        
         

@@ -1,0 +1,3 @@
+13:09:08.287 [main] INFO  testCases.LoginTests - *********TC01_Login to App using valid credentials testcase started****************
+13:09:11.614 [main] INFO  testCases.LoginTests - Heding Text Passed SuccessFullytrue
+13:09:11.614 [main] INFO  testCases.LoginTests - *********TC0002_TC01_Login to App using valid credentials testcase ended****************
